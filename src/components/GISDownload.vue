@@ -1,6 +1,6 @@
 <template>
-  <div class="">
-    <h1 class="text-4xl font-bold pt-10 pb-10">GIS Downloads</h1>
+  <div>
+    <h1 class=" pt-16 pb-10 text-4xl font-bold">GIS Downloads</h1>
     <div class="md:m-10 md:grid md:grid-cols-4 md:mr-52 md:ml-52">
       <div
         v-for="item in items"

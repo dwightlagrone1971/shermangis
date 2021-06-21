@@ -19,7 +19,7 @@
     />
     <div>
       <Menu style='background-color: #4a4a4a' />
-      <router-view class="home pb-28"  />
+      <router-view class="home pb-32 bg-auto md:bg-contain" />
       <Footer class="home" />
 
     </div>
@@ -32,12 +32,13 @@
 import Menu from "./components/Menu.vue";
 import Featured from "./components/Featured.vue";
 import Home from "./components/Home.vue";
+import AddressRequest from "./components/AddressRequest.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    Home, Menu, Featured, Footer
+    Home, Menu, Featured, Footer, AddressRequest
   },
 }
 </script>
@@ -65,9 +66,8 @@ export default {
 }
 .home {
   /* background-color: #f8f8f8; */
-  background-image: url("~@/assets/home-background.png");
+  background-image: url("./assets/home-background.png");
   width: 100%;
   height: 100%;
-
 }
 </style>

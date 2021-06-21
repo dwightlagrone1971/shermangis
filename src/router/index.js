@@ -9,6 +9,7 @@ import Internal from '../components/Internal.vue'
 import GISDownload from '../components/GISDownload.vue'
 import PDFMaps from '../components/PDFMaps.vue'
 import Contact from '../components/Contact.vue'
+import AddressRquest from '../components/AddressRequest.vue'
 
 const routes = [
   {
@@ -62,6 +63,11 @@ const routes = [
     name: 'Contact',
     component: Contact
   },
+  {
+    path: '/addressrequest',
+    name: 'AddressRequest',
+    component: AddressRequest
+  }
 
 
 ]

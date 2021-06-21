@@ -1,15 +1,15 @@
 <template>
-  <div class="bg-white">
-    <div class="grid md:grid-cols-5 md:ml-40 md:mr-40">
-      <button @click="goto('div1')" v-for="item in menuItems" :key="item" class="bg-white m-10 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" >
-        <router-link :to="item.to">
-          <div class="text-lg p-3" style="color: #4a4a4a">
+  <div id="scroll-to" class="bg-white">
+    <div class="grid md:grid-cols-6 md:ml-32 md:mr-32">
+      <button v-on:click="scroll" v-for="item in menuItems" :key="item" class="bg-white m-8 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" >
+        <router-link  :to="item.to">
+          <div class="text-lg p-2" style="color: #4a4a4a">
             {{ item.name }}
-          </div> 
+          </div>
         </router-link>
       </button>
     </div>
-  </div>     
+  </div>
 </template>
 
 <script>
@@ -23,18 +23,18 @@ export default {
                 { name: 'Internal Web Maps', to: '/internal' },
                 { name: 'GIS Downloads', to: '/gisdownload' },
                 { name: 'PDF Maps', to: '/pdfmaps' },
+                { name: 'Address Request Form', to: '/addressrequest', },
 
             ]
         }
     },
     methods: {
-        goto(refName) {
-        var element = this.$refs[refName];
-        var top = element.offsetTop - 200;
-
-        window.scrollTo(0, top);
+        scroll() {
+          const element = document.getElementById('scroll-to');
+          element.scrollIntoView({ behavior: 'smooth' });
         }
-    }
+    },
+
 };
 
 </script>
