@@ -19,7 +19,7 @@
     />
     <div>
       <Menu style='background-color: #4a4a4a' />
-      <router-view class="home pb-32 bg-auto md:bg-contain" />
+      <router-view class="home pb-32" />
       <Footer class="home" />
 
     </div>
@@ -65,9 +65,7 @@ export default {
   color: #42b983;
 }
 .home {
-  /* background-color: #f8f8f8; */
-  background-image: url("./assets/home-background.png");
-  width: 100%;
-  height: 100%;
+  background: url("./assets/home-background.png");
 }
+
 </style>
