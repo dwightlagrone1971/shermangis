@@ -18,13 +18,12 @@ export default {
     data() {
         return {
             menuItems: [
-                { name: 'Home', to: '/' },
+                { name: 'Address Request Form', to: '/addressrequest'},
                 { name: 'Web Maps', to: '/featured' },
                 { name: 'Internal Web Maps', to: '/internal' },
                 { name: 'GIS Downloads', to: '/gisdownload' },
                 { name: 'PDF Maps', to: '/pdfmaps' },
-                { name: 'Address Request Form', to: '/addressrequest', },
-
+                { name: 'About', to: '/about' },
             ]
         }
     },

@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from '../components/Home.vue'
+import About from '../components/About.vue'
 import AddressRequest from '../components/AddressRequest.vue'
 import WhatIsGIS from '../components/WhatIsGIS.vue'
 import WhatIsGPS from '../components/WhatIsGPS.vue'
@@ -12,11 +12,6 @@ import Contact from '../components/Contact.vue'
 import AddressRquest from '../components/AddressRequest.vue'
 
 const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
   {
     path: '/addressrequestform',
     name: 'AddressRequest',
@@ -67,8 +62,12 @@ const routes = [
     path: '/addressrequest',
     name: 'AddressRequest',
     component: AddressRequest
+  },
+  {
+    path: '/about',
+    name: 'About',
+    component: About
   }
-
 
 ]
 

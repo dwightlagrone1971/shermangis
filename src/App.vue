@@ -20,7 +20,7 @@
     <div>
       <Menu style='background-color: #4a4a4a' />
       <router-view class="home pb-32" />
-      <Footer class="home" />
+      <Footer style='background-color: #4a4a4a' />
 
     </div>
   </div>
@@ -31,14 +31,14 @@
 <script>
 import Menu from "./components/Menu.vue";
 import Featured from "./components/Featured.vue";
-import Home from "./components/Home.vue";
+import About from "./components/About.vue";
 import AddressRequest from "./components/AddressRequest.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    Home, Menu, Featured, Footer, AddressRequest
+    About, Menu, Featured, Footer, AddressRequest
   },
 }
 </script>
