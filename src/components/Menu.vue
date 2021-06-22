@@ -18,8 +18,8 @@ export default {
     data() {
         return {
             menuItems: [
-                { name: 'Address Request Form', to: '/addressrequest'},
                 { name: 'Web Maps', to: '/featured' },
+                { name: 'Address Request Form', to: '/addressrequest'},
                 { name: 'Internal Web Maps', to: '/internal' },
                 { name: 'GIS Downloads', to: '/gisdownload' },
                 { name: 'PDF Maps', to: '/pdfmaps' },

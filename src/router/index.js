@@ -28,7 +28,7 @@ const routes = [
     component: WhatIsGPS
   },
   {
-    path: '/featured',
+    path: '/',
     name: 'Featured',
     component: Featured
   },
