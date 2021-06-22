@@ -30,7 +30,7 @@
 
 <script>
 import Menu from "./components/Menu.vue";
-import Featured from "./components/Featured.vue";
+import WebMaps from "./components/WebMaps.vue";
 import About from "./components/About.vue";
 import AddressRequest from "./components/AddressRequest.vue";
 import Footer from "./components/Footer.vue";
@@ -38,7 +38,7 @@ import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: {
-    About, Menu, Featured, Footer, AddressRequest
+    About, Menu, WebMaps, Footer, AddressRequest
   },
 }
 </script>
