@@ -24,7 +24,8 @@ export default {
     return {
       items: [
         { name: 'ALL-IN-ONE', url: 'https://cityofsherman.maps.arcgis.com/apps/PublicInformation/index.html?appid=b9b1bfd6bec643aeaa4d6c5ad17a0388' },
-        { name: 'Residential Dashboard', url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626' }
+        { name: 'Residential Dashboard', url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626' },
+        { name: 'Conserve Water Map', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=302b9dd82da349bea4f3ebdc8eb8b1dd' }
       ]
     }
   }
