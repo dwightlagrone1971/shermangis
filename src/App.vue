@@ -5,7 +5,7 @@
         <img
         alt="City of Sherman"
         class="w-32 opacity-50 rounded-tl-3xl rounded-br-3xl rounded-tr-none rounded-bl-none"
-        src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/4c1c14de88764a2e9a5a08f1f0a7207e/data"
+        src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/25102411e6bf41698ef7a137e03444fb/data"
       />
       </div>
       <div class="pt-12 text-white -ml-36 text-left ">
@@ -30,7 +30,7 @@
 
 <script>
 import Menu from "./components/Menu.vue";
-import WebMaps from "./components/WebMaps.vue";
+import Featured from "./components/Featured.vue";
 import About from "./components/About.vue";
 import AddressRequest from "./components/AddressRequest.vue";
 import Footer from "./components/Footer.vue";
@@ -38,7 +38,7 @@ import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: {
-    About, Menu, WebMaps, Footer, AddressRequest
+    About, Menu, Featured, Footer, AddressRequest
   },
 }
 </script>

@@ -15,17 +15,10 @@
 <script>
 
 export default {
-    data() {
-        return {
-            menuItems: [
-                { name: 'About', to: '/about' },
-                { name: 'Address Request Form', to: '/addressrequest'},
-                { name: 'GIS Downloads', to: '/gisdownload' },
-                { name: 'Internal Web Maps', to: '/internal' },
-                { name: 'PDF Maps', to: '/pdfmaps' },
-                { name: 'Web Maps', to: '/' },
-            ]
-        }
+    computed: {
+      menuItems() {
+        return this.$store.state.menuItems
+      }
     },
     methods: {
         scroll() {
