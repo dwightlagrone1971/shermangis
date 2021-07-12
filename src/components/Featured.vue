@@ -19,12 +19,16 @@
 </template>
 
 <script>
+import { useStore } from 'vuex'
+import { computed, ref } from 'vue'
 
 export default {
-  computed: {
-    items() {
-      return this.$store.state.items
-    }
+  setup() {
+    const store = useStore();
+    const items = computed(() => store.getters.getItems('featured'))
+
+
+    return { items, store }
   }
 }
 

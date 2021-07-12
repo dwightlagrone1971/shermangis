@@ -14,19 +14,20 @@
 </template>
 
 <script>
+import { useStore } from 'vuex'
+import { computed, ref } from 'vue'
+
 export default {
-    data() {
-        return {
-            items: [
-                { name: " City of sherman", url: "https://www.ci.sherman.tx.us/", alt:"City of Sherman" },
-                { name: "Grayson County", url: "https://www.co.grayson.tx.us/", alt:"Grayson County" },
-                { name: "G-CAD", url: "https://www.graysonappraisal.org/", alt:"Grayson County" },
-                { name: "TCOG", url: "https://www.tcog.com/", alt:"TCOG" },
-                { name: "ESRI", url: "https://www.tcog.com/", alt:"ESRI" }
-            ]
-        }
-    }
+  setup() {
+    const store = useStore();
+    const items = computed(() => store.getters.getItems('footer'))
+
+
+    return { items, store }
+  }
 }
+
+
 </script>
 
 

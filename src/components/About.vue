@@ -14,21 +14,21 @@
 </template>
 
 <script>
+import { useStore } from 'vuex'
+import { computed, ref } from 'vue'
 
 export default {
-  data() {
-    return {
-      items: [
-        { name: 'What is GIS?', to: '/whatisgis' },
-        { name: 'What is GPS?', to: '/whatisgps' },
-        { name: 'Contact US', to: '/contact' }
-      ]
-    }
+  setup() {
+    const store = useStore();
+    const items = computed(() => store.getters.getItems('about'))
+
+
+    return { items, store }
   }
-};
+}
+
 
 </script>
-
 
 <style scoped>
 

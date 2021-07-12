@@ -28,21 +28,20 @@
 </template>
 
 <script>
+import { useStore } from 'vuex'
+import { computed, ref } from 'vue'
 
 export default {
-  data() {
-    return {
-      items: [
-        { name: "Points", url: "https://data-cityofsherman.opendata.arcgis.com/search?categories=base%20layers%2Cpoints", text:"Address Points, Control Points, Parks & Recreation, Points of Interest, Sherman Schools & Traffic Counts" },
-        { name: "Lines", url: "https://data-cityofsherman.opendata.arcgis.com/search?categories=base%20layers%2Clines", text: "Road Centerlines & Pavement Edge" },
-        { name: "Polygons", url: "https://data-cityofsherman.opendata.arcgis.com/search?categories=base%20layers%2Careas", text: "Building Footprints, City Limits, Parcels, Council Districts, E.T.J. & Future Landuse"},
-        { name: "Contact Us", url: "mailto:dwightl@cityofsherman.com", text: "Can't find what you are looking for?"}
-      ]
-    }
+  setup() {
+    const store = useStore()
+    const items = computed(() => store.getters.getItems('gisdownloads'))
+
+    return { items, store }
   }
-};
+}
 
 </script>
+
 
 
 <style scoped>

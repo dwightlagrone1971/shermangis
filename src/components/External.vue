@@ -15,20 +15,20 @@
 </template>
 
 <script>
+import { useStore } from 'vuex'
+import { computed, ref } from 'vue'
+
 export default {
-  data() {
-    return {
-      items: [
-        { name: 'Council Districts', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=8d6315e42fc24d1aa12e2c7477f7d0d0' },
-        { name: 'Emergency Sirens', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=a36f3d5aa21349d6a152822fe36f79fb' },
-        { name: 'Parks & recreation', url: 'https://cityofsherman.maps.arcgis.com/apps/Shortlist/index.html?appid=6202d49de88b4fc4b94e9878648584ae' },
-        { name: 'Sex Offender Restricted Areas', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=fad3e825333c4405836de6723978d9b6' },
-        { name: 'Sherman School', url: 'https://cityofsherman.maps.arcgis.com/apps/Viewer/index.html?appid=3f4cce8e33e347cfb0393803600a65db' },
-        { name: 'Zoning Map', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=c76e6bd8840e4adc9235cfe24b919c49' }
-      ]
-    }
+  setup() {
+    const store = useStore();
+    const items = computed(() => store.getters.getItems('external'))
+
+
+    return { items, store }
   }
-};
+}
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
