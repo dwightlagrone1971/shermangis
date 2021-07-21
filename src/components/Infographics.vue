@@ -5,8 +5,10 @@
       <div
         v-for="item in items"
         :key="item"
-        class="m-10 mb-5 mt-5">
-        <div  class="transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" >
+        class="m-10 mb-5 mt-5"
+        @click="goto('div1')"
+      >
+        <div class="transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" >
           <div style="background-color: #4a4a4a" >
             <a
               :href="item.url"
@@ -37,6 +39,14 @@ export default {
     const items = computed(() => store.getters.getItems('infographics'))
 
     return { items, store }
+  },
+  methods: {
+    goto(refName) {
+      var element = this.$refs[refName];
+      var top = element.offsetTop;
+
+      window.scrollTo(0, top);
+    }
   }
 }
 
