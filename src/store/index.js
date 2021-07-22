@@ -19,7 +19,7 @@ const store = createStore({
 			{ type: 'external', name: 'Zoning Map', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=c76e6bd8840e4adc9235cfe24b919c49' },
 			{ type: 'featured', name: 'ALL-IN-ONE', url: 'https://cityofsherman.maps.arcgis.com/apps/PublicInformation/index.html?appid=b9b1bfd6bec643aeaa4d6c5ad17a0388' },
 			{ type: 'featured', name: 'Residential Dashboard', url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626' },
-			{ type: 'featured', name: 'Address Request Form', to: '/addressrequest'},
+			{ type: 'featured', name: 'Address Request Form', url: 'https://survey123.arcgis.com/share/9933e2aecb8e4e97b4107523b70b9e03?portalUrl=https://cityofsherman.maps.arcgis.com' },
 			{ type: 'footer', name: " City of sherman", url: "https://www.ci.sherman.tx.us/", alt:"City of Sherman" },
 			{ type: 'footer', name: "Grayson County", url: "https://www.co.grayson.tx.us/", alt:"Grayson County" },
 			{ type: 'footer', name: "G-CAD", url: "https://www.graysonappraisal.org/", alt:"Grayson County" },
