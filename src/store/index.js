@@ -56,6 +56,7 @@ const store = createStore({
 			{ type: 'pdfMaps', name: 'Council District Map', url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/6891bd3aedfb41d59e25eed86d7fb0c3/data' },
 			{ type: 'pdfMaps', name: 'E.T.J Map', url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/2097361b3fec4b289763d414df040b27/data' },
 			{ type: 'pdfMaps', name: 'Sherman Schools', url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/098b94114bec4031a3638978be32874e/data' },
+			{ type: 'pdfMaps', name: 'Thoroughfare Map', url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/49c68ca90fd346d99448d7dd9ccf3f66/data' },
 			{ type: 'pdfMaps', name: 'Zoning Map', url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e1e4313e1d1248228d6bb29b31163ac4/data' },
 		],
 	}),
