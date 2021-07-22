@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <h1 class="pt-16 pb-8 text-4xl font-bold" style="color: #4a4a4a">Featured Maps</h1>
+    <h1 class="pt-16 pb-10 text-4xl font-bold" style="color: #4a4a4a">Featured Maps</h1>
     <div class="grid md:mx-96 md:grid-cols-2" >
       <div v-for="item in items" :key="item" class="m-8 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" style="background-color: #4a4a4a" >
         <a :href="item.url" :title="item.name" target="_blank">

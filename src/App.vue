@@ -65,7 +65,8 @@ export default {
   color: #42b983;
 }
 .home {
-  background: url("./assets/home-background.png");
+  /* background: url("./assets/home-background.png"); */
+  background-color: #f8f8f8;
 }
 
 </style>

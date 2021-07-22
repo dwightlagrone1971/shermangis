@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="pt-14 pb-10 text-4xl font-bold">Contact Page</h1>
+    <h1 class="pt-16 pb-10 text-4xl font-bold" style="color: #4a4a4a">Contact Page</h1>
     <div class="text-lg font-semibold md:grid md:grid-cols-2 md:mr-96 md:ml-96">
       <div
         v-for="contact in items"

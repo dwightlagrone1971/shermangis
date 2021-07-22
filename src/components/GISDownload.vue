@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class=" pt-16 pb-10 text-4xl font-bold">GIS Downloads</h1>
+    <h1 class=" pt-16 pb-10 text-4xl font-bold" style="color: #4a4a4a">GIS Downloads</h1>
     <div class="md:m-10 md:grid md:grid-cols-4 md:mr-52 md:ml-52">
       <div
         v-for="item in items"
@@ -19,7 +19,7 @@
             </a>
           </div>
         </div>
-        <div class="text-base font-semibold mt-5 mb-10">
+        <div class="text-base font-semibold mt-5 mb-10" style="color: #4a4a4a">
           {{ item.text }}
         </div>
       </div>
