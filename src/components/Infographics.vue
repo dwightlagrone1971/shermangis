@@ -1,7 +1,7 @@
 <template>
   <div>
     <p class=" pt-16 pb-10 text-xl font-bold mr-96 ml-96" style="color: #4a4a4a"><span class="text-3xl">Infographics</span> are a visual representation of information or data. The infographics below use American Community Survey (ACS), Census, Esri forecasts, and third-party retail data.</p>
-    <div class="md:m-10 md:grid md:grid-cols-3 md:mr-52 md:ml-52">
+    <div class="md:m-10 md:grid md:grid-cols-3 md:mr-96 md:ml-96">
       <div
         v-for="item in items"
         :key="item"
