@@ -1,8 +1,8 @@
 <template>
   <div class="">
-    <h1 class="pt-16 pb-10 text-4xl font-bold" style="color: #4a4a4a">Featured</h1>
+    <h1 class="pt-16 pb-14 text-4xl font-bold" style="color: #4a4a4a">Featured Items</h1>
     <div class="grid md:mx-96 md:grid-cols-3" >
-      <div v-for="item in items" :key="item" class="m-8 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" style="background-color: #4a4a4a" >
+      <div v-for="item in items" :key="item" class="mb-10 mr-12 ml-12 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" style="background-color: #4a4a4a" >
         <a :href="item.url" :title="item.name" target="_blank">
           <div class="text-lg p-3" style="color: #f8f8f8">
             {{ item.name }}
