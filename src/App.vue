@@ -67,6 +67,8 @@ export default {
 .home {
   /* background: url("./assets/home-background.png"); */
   background-color: #f8f8f8;
+  background: repeating-linear-gradient( -45deg, #ffffff, #ffffff 5px, #f8f8f8 5px, #f8f8f8 8px );
+
 }
 
 </style>
