@@ -5,7 +5,7 @@
       <div
         v-for="item in items"
         :key="item"
-        class="m-10 mb-5 mt-5"
+        class="m-10 mb-1 mt-1"
       >
         <div class="transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" >
           <div style="background-color: #4a4a4a" >
