@@ -24,7 +24,7 @@ const store = createStore({
 			{ type: 'footer', name: "Grayson County", url: "https://www.co.grayson.tx.us/", alt:"Grayson County" },
 			{ type: 'footer', name: "G-CAD", url: "https://www.graysonappraisal.org/", alt:"Grayson County" },
 			{ type: 'footer', name: "TCOG", url: "https://www.tcog.com/", alt:"TCOG" },
-			{ type: 'footer', name: "ESRI", url: "https://www.tcog.com/", alt:"ESRI" },
+			{ type: 'footer', name: "ESRI", url: "https://www.esri.com/en-us/home", alt:"ESRI" },
 			{ type: 'gisdownloads', name: "Points", url: "https://data-cityofsherman.opendata.arcgis.com/search?categories=base%20layers%2Cpoints", text:"Address Points, Control Points, Parks & Recreation, Points of Interest, Sherman Schools & Traffic Counts" },
 			{ type: 'gisdownloads', name: "Lines", url: "https://data-cityofsherman.opendata.arcgis.com/search?categories=base%20layers%2Clines", text: "Road Centerlines & Pavement Edge" },
 			{ type: 'gisdownloads', name: "Polygons", url: "https://data-cityofsherman.opendata.arcgis.com/search?categories=base%20layers%2Careas", text: "Building Footprints, City Limits, Parcels, Council Districts, E.T.J. & Future Landuse"},
