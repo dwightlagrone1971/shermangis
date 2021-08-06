@@ -1,44 +1,25 @@
 <template class="antialiased">
-  <div class="w-full">
-    <div class="z-1 absolute m-auto md:grid md:grid-cols-2 w-12/12">
-      <div class="pl-10 pt-10">
-        <img
-        alt="City of Sherman"
-        class="w-32 opacity-50 rounded-tl-3xl rounded-br-3xl rounded-tr-none rounded-bl-none"
-        src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/25102411e6bf41698ef7a137e03444fb/data"
-      />
-      </div>
-      <div class="pt-12 text-white -ml-36 text-left ">
-        <h1 class="text-5xl">City of Sherman, Texas</h1>
-      </div>
-    </div>
-    <img
-      alt="City of Sherman"
-      class="w-screen h-80 z-0"
-      src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/ca5e6ba318234377a902dd0ee0cac389/data"
-    />
-    <div>
+  <div class="app">
+
+      <Header />
       <Menu style='background-color: #4a4a4a' />
       <router-view class="home pb-32" />
       <Footer style='background-color: #4a4a4a' />
 
-    </div>
   </div>
 
 </template>
 
 
 <script>
+import Header from "./components/Header.vue";
 import Menu from "./components/Menu.vue";
-import Featured from "./components/Featured.vue";
-import About from "./components/About.vue";
-import AddressRequest from "./components/AddressRequest.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    About, Menu, Featured, Footer, AddressRequest
+    Header, Menu, Footer,
   },
 }
 </script>

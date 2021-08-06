@@ -1,16 +1,15 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import About from '../components/About.vue'
-import AddressRequest from '../components/AddressRequest.vue'
-import WhatIsGIS from '../components/WhatIsGIS.vue'
-import WhatIsGPS from '../components/WhatIsGPS.vue'
-import Featured from '../components/Featured.vue'
-import External from '../components/External.vue'
-import Internal from '../components/Internal.vue'
-import GISDownload from '../components/GISDownload.vue'
-import PDFMaps from '../components/PDFMaps.vue'
-import Contact from '../components/Contact.vue'
-import AddressRquest from '../components/AddressRequest.vue'
-import Infographics from '../components/Infographics.vue'
+
+import About from '../views/About.vue'
+import Contact from '../views/Contact.vue'
+import External from '../views/External.vue'
+import Featured from '../views/Featured.vue'
+import GISDownload from '../views/GISDownload.vue'
+import Infographics from '../views/Infographics.vue'
+import Internal from '../views/Internal.vue'
+import PDFMaps from '../views/PDFMaps.vue'
+import WhatIsGIS from '../views/WhatIsGIS.vue'
+import WhatIsGPS from '../views/WhatIsGPS.vue'
 
 const routes = [
   {
@@ -22,11 +21,6 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About
-  },
-  {
-    path: '/addressrequestform',
-    name: 'AddressRequest',
-    component: AddressRequest
   },
   {
     path: '/contact',

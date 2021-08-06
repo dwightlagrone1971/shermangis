@@ -44,7 +44,7 @@ const store = createStore({
 			{ type: 'internal', name: 'Detailed Parks Map', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=78f0ba56e43a4edeb9e2166ebf7c7337'},
 			{ type: 'internal', name: 'Mowing Map', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=1e4c344342414fbba77d9805a67a61a4'},
 			{ type: 'internal', name: 'Storm Water Fees', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=6ff28e8cc3fa4cd69d80b9077eec3f1c'},
-		  { type: 'menuItems', name: 'About', to: '/about' },
+		  { type: 'menuItems', name: 'About Page', to: '/about' },
 			{ type: 'menuItems', name: 'Featured Items', to: '/' },
 			{ type: 'menuItems', name: 'GIS Downloads', to: '/gisdownload' },
 			{ type: 'menuItems', name: 'Infographics', to: '/infographics' },
