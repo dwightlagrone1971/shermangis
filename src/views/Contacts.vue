@@ -1,5 +1,5 @@
 <template>
-  <h1 class="m-auto text-4xl font-bold py-10 2xl:py-4">Contact Page</h1>
+  <h1 class="m-auto text-5xl font-bold py-10 2xl:py-10">Contact Page</h1>
   <div class="m-auto py-6 w-11/12 grid 2xl:grid-cols-2 2xl:w-7/12">
     <div
       class="m-auto border-2 py-8 px-8 mb-10 bg-white shadow-2xl rounded-3xl"

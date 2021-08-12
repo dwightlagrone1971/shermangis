@@ -2,13 +2,13 @@
   <div
      class="py-10 2xl:py-14"
     style="background-color: #f8f8f8;">
-    <h1 class="text-5xl mb-10 font-bold 2xl:pb-8 2xl:pt-8">Featured Items</h1>
+    <h1 class="text-5xl mb-10 font-bold 2xl:pb-8">Featured Items</h1>
     <div class="m-auto grid grid-cols-1 lg:grid-cols-3 lg:w-9/12 2xl:w-6/12">
       <div
         v-for="item in items"
         :key="item"
         style="background-color: #4a4a4a;"
-        class="m-auto mb-6 pb-10 w-60 h-12 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
+        class="m-auto mb-6 pb-10 w-72 h-14 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
         <a :href="item.url" :title="item.name" target="_blank">
           <div
             class="text-lg p-3"
@@ -19,7 +19,7 @@
       </div>
     </div>
     <router-link
-      class="m-auto mt-8 w-60 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
+      class="m-auto mt-8 w-72 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
       style="background-color: #4a4a4a;"
       to="/external"
     >
