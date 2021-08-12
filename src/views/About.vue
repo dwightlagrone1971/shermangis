@@ -1,7 +1,7 @@
 <template>
   <div class="py-10" style="background-color: #f8f8f8;">
-    <h1 class="text-5xl mb-10 font-bold 2xl:mt-14 2xl:mb-16" style="color: #4a4a4a">About Page</h1>
-    <div class="m-auto grid grid-cols-1 lg:grid-cols-3 lg:w-8/12 2xl:w-7/12">
+    <h1 class="text-5xl mb-10 font-bold 2xl:mt-16 2xl:mb-20" style="color: #4a4a4a">About Page</h1>
+    <div class="m-auto grid grid-cols-1 lg:grid-cols-3 lg:w-8/12 2xl:w-6/12">
       <div
         v-for="item in items"
         :key="item"
