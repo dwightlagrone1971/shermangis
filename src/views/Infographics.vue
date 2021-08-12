@@ -1,6 +1,6 @@
 <template>
   <div class="m-auto w-10/12 mt-6 mb-10 2xl:w-6/12" style="background-color: #f8f8f8;">
-    <p class="m-auto mb-6 2xl:py-6 text-xl font-bold" style="color: #4a4a4a;">
+    <p class="m-auto mb-6 2xl:py-10 text-xl font-bold" style="color: #4a4a4a;">
       <span class="text-5xl">Infographics</span> are a visual representation of information
  or data. The infographics below use American Community
  Survey (ACS), Census, Esri forecasts, and third-party retail data.</p>

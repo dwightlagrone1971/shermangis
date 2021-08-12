@@ -9,7 +9,7 @@
         style="background-color: #f8f8f8;"
       >
         <router-link :to="item.to">
-          <div class="text-lg 2xl:text-xl" style="color: #4d4d4d;">
+          <div class="text-lg 2xl:text-lg" style="color: #4d4d4d;">
             {{ item.name }}
           </div>
         </router-link>
