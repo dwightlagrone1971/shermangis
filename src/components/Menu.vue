@@ -5,7 +5,7 @@
         v-on:click="scrollToElement"
         v-for="item in items"
         :key="item"
-        class=" m-auto mb-8 w-48 2xl:pt-1 2xl:h-10 2xl:w-52 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
+        class=" m-auto mb-8 w-48 2xl:pt-2 2xl:h-10 2xl:w-52 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
         style="background-color: #f8f8f8;"
       >
         <router-link :to="item.to">

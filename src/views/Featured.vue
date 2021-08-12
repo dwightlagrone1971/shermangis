@@ -2,7 +2,7 @@
   <div
      class="py-10 2xl:py-14"
     style="background-color: #f8f8f8;">
-    <h1 class="text-4xl mb-10 font-bold 2xl:pb-6">Featured Items</h1>
+    <h1 class="text-5xl mb-10 font-bold 2xl:pb-8 2xl:pt-8">Featured Items</h1>
     <div class="m-auto grid grid-cols-1 lg:grid-cols-3 lg:w-9/12 2xl:w-6/12">
       <div
         v-for="item in items"

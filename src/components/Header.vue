@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full ">
+    <div class="w-full h-11/12 ">
       <div class="z-1 absolute m-auto md:grid md:grid-cols-2 w-12/12">
         <div class="pl-10 pt-10">
           <img
