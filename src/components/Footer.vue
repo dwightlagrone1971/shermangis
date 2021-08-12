@@ -8,7 +8,7 @@
 
       >
         <a :href="item.url" :title="item.name" class="" target="_blank">
-          <div class="text-xs pb-4" style="color: #f8f8f8;">
+          <div class="text-sm pb-4" style="color: #f8f8f8;">
             {{ item.name }}
           </div>
         </a>
