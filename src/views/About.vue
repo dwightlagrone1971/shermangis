@@ -1,14 +1,21 @@
 <template>
-  <div>
-    <h1 class="pt-16 pb-10 text-4xl font-bold" style="color: #4a4a4a">About Page</h1>
-    <div class="mt-2 pb-8 grid md:grid-cols-3 md:ml-96 md:mr-96 mb-10">
-      <button v-for="item in items" :key="item" class="bg-white m-10 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" style="background-color: #4a4a4a">
+  <div class="py-10" style="background-color: #f8f8f8;">
+    <h1 class="text-4xl mb-10 font-bold 2xl:mt-8 2xl:mb-14">About Page</h1>
+    <div class="m-auto grid grid-cols-1 lg:grid-cols-3 lg:w-8/12 2xl:w-7/12">
+      <div
+        v-for="item in items"
+        :key="item"
+        :click="item.to"
+        style="background-color: #4a4a4a;"
+        class="m-auto mb-6 pb-10 w-48 2xl:w-72 h-12 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
         <router-link :to="item.to">
-          <div class="text-lg p-3" style="color: #f8f8f8">
+          <div
+            class="text-lg p-3"
+            style="color: #f8f8f8;">
             {{ item.name }}
           </div>
         </router-link>
-      </button>
+      </div>
     </div>
   </div>
 </template>

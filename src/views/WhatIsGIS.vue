@@ -5,7 +5,7 @@
         </div>
         <div class="grid md:grid-cols-5 w-8/12 m-auto">
              <div class="h-72 opacity-80">
-                <img src="../assets//WhatIsGIS.png" alt="WhatIsGIS Image">
+                <img src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/1c1777c03d434fc887bcf7e9fbc5dba1/data" alt="WhatIsGIS Image">
             </div>
             <div class="h-72 md:col-span-4 text-left pl-5">
                  <span class="font-bold text-xl">GIS (Global Information System)</span> is a collection of computer hardware, software, and geographic data for capturing, managing, analyzing and displaying all forms of geographically referenced information (Source: ESRI).

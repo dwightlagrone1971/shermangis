@@ -1,14 +1,20 @@
 <template>
-  <div class="">
-    <h1 class="pt-16 pb-10 text-4xl font-bold drop-shadow-2xl" style="color: #4a4a4a">PDF Maps</h1>
-    <div class="grid md:grid-cols-4 md:ml-80 md:mr-80">
-      <div v-for="item in items" :key="item" class="m-8 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" style="background-color: #4a4a4a" >
+  <div class="m-auto py-10 lg:w-11/12 2xl:w-9/12" style="background-color: #f8f8f8; ">
+    <h1 class="m-auto text-4xl mb-10 font-bold 2xl:mt-6 2xl:mb-16">PDF Maps</h1>
+    <div class="m-auto grid grid-cols-1 lg:grid-cols-4">
+      <button
+        v-for="item in items"
+        :key="item"
+        style="background-color: #4a4a4a;"
+        class="m-auto mb-6 pb-10 w-56 2xl:w-72 h-12 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
         <a :href="item.url" :title="item.name" target="_blank">
-          <div class="text-lg p-3" style="color: #f8f8f8">
+          <div
+            class="text-lg p-3"
+            style="color: #f8f8f8;">
             {{ item.name }}
           </div>
         </a>
-      </div>
+      </button>
     </div>
   </div>
 </template>

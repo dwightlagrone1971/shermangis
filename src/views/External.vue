@@ -1,17 +1,22 @@
 <template>
-  <div class="">
-    <h1 class="pt-16 pb-14 text-4xl font-bold" style="color: #4a4a4a">Web Maps</h1>
-    <div class="grid md:grid-cols-3 md:ml-96 md:mr-96">
-      <div v-for="item in items" :key="item" class="mb-10 mr-12 ml-12 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" style="background-color: #4a4a4a" >
+  <div class="py-10 2xl:py-14" style="background-color: #f8f8f8;">
+    <h1 class="text-4xl mb-10 2xl:pb-4 font-bold">Web Maps</h1>
+    <div class="m-auto grid grid-cols-1 lg:grid-cols-3 lg:w-9/12 2xl:w-6/12">
+      <div
+        v-for="item in items"
+        :key="item"
+        style="background-color: #4a4a4a;"
+        class="m-auto mb-8 pb-10 w-60 h-12 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
         <a :href="item.url" :title="item.name" target="_blank">
-          <div class="text-lg p-3" style="color: #f8f8f8">
+          <div
+            class="text-lg p-3 2xl:mb-6"
+            style="color: #f8f8f8;">
             {{ item.name }}
           </div>
         </a>
       </div>
     </div>
   </div>
-
 </template>
 
 <script>

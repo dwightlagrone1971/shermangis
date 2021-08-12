@@ -2,9 +2,9 @@
   <div class="app">
 
       <Header />
-      <Menu style='background-color: #4a4a4a' />
-      <router-view class="home pb-32" />
-      <Footer style='background-color: #4a4a4a' />
+      <Menu />
+      <router-view class="h-screen"/>
+      <Footer id="footer"/>
 
   </div>
 
@@ -31,25 +31,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-.home {
-  /* background: url("./assets/home-background.png"); */
   background-color: #f8f8f8;
-  background: repeating-linear-gradient( -45deg, #ffffff, #ffffff 5px, #f8f8f8 5px, #f8f8f8 8px );
-
 }
-
+#footer{
+  position:fixed;
+  bottom:0;
+}
 </style>

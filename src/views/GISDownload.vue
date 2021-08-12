@@ -1,26 +1,24 @@
 <template>
-  <div>
-    <h1 class=" pt-16 pb-10 text-4xl font-bold" style="color: #4a4a4a">GIS Downloads</h1>
-    <div class="md:m-10 md:grid md:grid-cols-4 md:mr-52 md:ml-52">
+  <div class="m-auto py-8 2xl:pt-16 2xl:pb-20 lg:w-10/12" style="background-color: #f8f8f8;">
+    <h1 class="text-4xl mb-6 2xl:mb-14 font-bold">GIS Downloads</h1>
+    <div class="m-auto grid grid-cols-1 lg:grid-cols-4 2xl:w-10/12">
       <div
         v-for="item in items"
         :key="item"
-        class="m-10 mb-5 mt-5">
-        <div  class="transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" >
-          <div style="background-color: #4a4a4a" >
-            <a
-              :href="item.url"
-              :title="item.name"
-              target="_blank"
-            >
-              <div class="text-lg p-3" style="color: #f8f8f8">
-                {{ item.name }}
-              </div>
-            </a>
-          </div>
+      >
+        <div
+          style="background-color: #4a4a4a;"
+          class="m-auto mb-6 pb-10 w-60 2xl:w-72 h-12 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
+          <a :href="item.url" :title="item.name" target="_blank">
+            <div
+              class="text-lg p-3"
+              style="color: #f8f8f8;">
+              {{ item.name }}
+            </div>
+          </a>
         </div>
-        <div class="text-base font-semibold mt-5 mb-10" style="color: #4a4a4a">
-          {{ item.text }}
+        <div>
+          <h4 class="m-auto -mt-4 mb-8 w-60">{{ item.text }}</h4>
         </div>
       </div>
     </div>

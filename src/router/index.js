@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 import About from '../views/About.vue'
-import Contact from '../views/Contact.vue'
+import Contacts from '../views/Contacts.vue'
 import External from '../views/External.vue'
 import Featured from '../views/Featured.vue'
 import GISDownload from '../views/GISDownload.vue'
@@ -23,9 +23,9 @@ const routes = [
     component: About
   },
   {
-    path: '/contact',
-    name: 'Contact',
-    component: Contact
+    path: '/contacts',
+    name: 'Contacts',
+    component: Contacts
   },
   {
     path: '/external',

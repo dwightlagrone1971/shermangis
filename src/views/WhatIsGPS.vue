@@ -5,7 +5,7 @@
         </div>
         <div class="grid md:grid-cols-5 w-8/12 m-auto">
             <div class="md:col-span-1 md:mr-5 md:mt-12 opacity-80">
-                <img src="../assets/WhatIsGPS.png" alt="WhatIsGIS Image">
+                <img src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/94a104d6f95c42c98d30e60c12f1d7b1/data" alt="WhatIsGIS Image">
             </div>
             <div class="md:col-span-3 mt-10 mb-10 text-left ml-10 mr-10">
                  <span class="font-bold text-xl">GPS (Global Positional System)</span><p class="text-sm">is a passive, all-weather, 24-hour global navigation satellite system developed for and operated by the U.S. Department of Defense. The system is comprised of 24+ satellites, one master control station located in Colorado Springs, Colorado, and hundreds of government and independent local reference stations. The local reference stations are used for post-processing data collected in the field to obtain maximum accuracy.
