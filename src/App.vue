@@ -1,4 +1,4 @@
-<template class="antialiased">
+<template class="antialiased font-mono" >
   <div class="app">
 
       <Header />
