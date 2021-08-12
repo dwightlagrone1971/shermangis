@@ -1,6 +1,6 @@
 <template>
   <div class="m-auto lg:w-11/12 2xl:w-8/12" style="background-color: #f8f8f8; ">
-    <h1 class="m-auto text-5xl mt-12 mb-12 font-bold 2xl:mt-16 2xl:mb-20" style="color: #4a4a4a">PDF Maps</h1>
+    <h1 class="m-auto text-5xl mt-12 mb-12 font-bold 2xl:mt-24 2xl:mb-20" style="color: #4a4a4a">PDF Maps</h1>
     <div class="m-auto grid grid-cols-1 lg:grid-cols-4">
       <button
         v-for="item in items"

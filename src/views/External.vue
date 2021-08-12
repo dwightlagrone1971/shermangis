@@ -1,6 +1,6 @@
 <template>
   <div style="background-color: #f8f8f8;">
-    <h1 class="text-5xl mt-12 mb-12 2xl:mt-16 2xl:mb-20 font-bold" style="color: #4a4a4a">Web Maps</h1>
+    <h1 class="text-5xl mt-12 mb-12 2xl:mt-24 2xl:mb-20 font-bold" style="color: #4a4a4a">Web Maps</h1>
     <div class="m-auto grid grid-cols-1 lg:grid-cols-3 lg:w-9/12 2xl:w-6/12">
       <div
         v-for="item in items"
