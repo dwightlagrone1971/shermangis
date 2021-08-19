@@ -20,7 +20,7 @@
             class="text-xl font-semibold"
             style="color: #4a4a4a"
             target="_blank"
-          >(903) 892-7310</a>
+          >Click to Call</a>
         </div>
         <div class="">
           <a
@@ -28,7 +28,7 @@
             class="text-xl font-semibold underline text-purple-600"
             style="color: #4a4a4a"
             target="_blank"
-          >Email</a>
+          >Click to Email</a>
         </div>
       </div>
     </div>
