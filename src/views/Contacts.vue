@@ -14,13 +14,22 @@
         <h2 class="text-xl font-semibold" style="color: #4a4a4a">{{ contact.employer }}</h2>
         <h2 class="text-xl font-semibold" style="color: #4a4a4a">{{ contact.address }}</h2>
         <h2 class="text-xl font-semibold" style="color: #4a4a4a">{{ contact.city }}</h2>
-        <h2 class="text-xl font-semibold" style="color: #4a4a4a">{{ contact.phone }}</h2>
-        <a
-          href="mailto:{{contact.email}}"
-          class="text-xl font-semibold underline"
-          style="color: #4a4a4a"
-          target="_blank"
-        >Email Us</a>
+        <div class="">
+          <a
+            href="tel+:{{contact.phone}}"
+            class="text-xl font-semibold"
+            style="color: #4a4a4a"
+            target="_blank"
+          >(903) 892-7310</a>
+        </div>
+        <div class="">
+          <a
+            href="mailto:{{contact.email}}"
+            class="text-xl font-semibold underline text-purple-600"
+            style="color: #4a4a4a"
+            target="_blank"
+          >Email</a>
+        </div>
       </div>
     </div>
   </div>
