@@ -16,11 +16,11 @@
         <h2 class="text-xl font-semibold" style="color: #4a4a4a">{{ contact.city }}</h2>
         <div class="">
           <a
-            href="tel+:{{contact.phone}}"
+            href="tel+:{{ contact.phone }}"
             class="text-xl font-semibold"
             style="color: #4a4a4a"
             target="_blank"
-          >Click to Call</a>
+          >{{ contact.phone }}</a>
         </div>
         <div class="">
           <a
