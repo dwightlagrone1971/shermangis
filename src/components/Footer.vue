@@ -1,4 +1,4 @@
-<template>
+ T<template>
   <div class="m-auto w-screen" style="background-color: #4a4a4a;">
     <div class="m-auto h-10 grid grid-cols-5 pt-4 lg:w-8/12">
       <div
