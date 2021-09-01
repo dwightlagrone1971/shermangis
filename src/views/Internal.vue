@@ -1,5 +1,5 @@
 <template>
-  <div class="m-auto lg:w-10/12 2xl:w-6/12" style="background-color: #f8f8f8;">
+  <div class="m-auto lg:w-10/12 2xl:w-6/12">
     <h1 class="m-auto mt-12 mb-12 text-5xl 2xl:mt-24 2xl:mb-20 mb-10 font-bold" style="color: #4a4a4a">Internal Maps</h1>
     <div class="m-auto grid grid-cols-1 lg:grid-cols-3">
       <div

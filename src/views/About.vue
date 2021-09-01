@@ -1,5 +1,5 @@
 <template>
-  <div style="background-color: #f8f8f8;">
+  <div>
     <h1 class="text-5xl mt-12 mb-12 font-bold 2xl:mt-24 2xl:mb-20" style="color: #4a4a4a">About Page</h1>
     <div class="m-auto grid grid-cols-1 lg:grid-cols-3 lg:w-8/12 2xl:w-6/12">
       <div
