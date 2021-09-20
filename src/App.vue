@@ -38,7 +38,8 @@ export default {
   bottom:0;
 }
 body {
-  background-image: url('https://www.designbolts.com/wp-content/uploads/2013/02/Rough-Grey-Seamless-Pattern-For-Website-Background.jpg');
+  background-color: #f8f8f8;
+  /* background-image: url('https://www.designbolts.com/wp-content/uploads/2013/02/Rough-Grey-Seamless-Pattern-For-Website-Background.jpg'); */
 }
 
 </style>
