@@ -8,8 +8,9 @@
             src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/25102411e6bf41698ef7a137e03444fb/data"
           />
         </div>
-        <div class="pt-12 text-white -ml-36 text-left ">
+        <div class="pt-12 text-white -ml-36 text-left drop-shadow-2xl">
           <h1 class="text-5xl">City of Sherman, Texas</h1>
+          <h1 class="text-4xl">GIS Department</h1>
         </div>
       </div>
       <img
