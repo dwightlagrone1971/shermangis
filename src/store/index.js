@@ -38,7 +38,7 @@ const store = createStore({
 			{ type: 'infographics', name: 'Key Facts', url: 'https://experience.arcgis.com/experience/90fe3dd8d86c4045a9cac14c85e53524/' },
 			{ type: 'infographics', name: 'Population Trends', url: 'https://experience.arcgis.com/experience/0db2b23b4f374ff7994175333130743d/e' },
 			{ type: 'infographics', name: 'Tapestery Profile', url: 'https://experience.arcgis.com/experience/fe9979cd4e594836ac8c4debd19a8733/e' },
-			{ type: 'internal', name: 'Code Incidents (2021)', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=83d4528b6352402d9ce262c45a07e11a'},
+			{ type: 'internal', name: 'Code Incidents (2022)', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=83d4528b6352402d9ce262c45a07e11a'},
 			{ type: 'internal', name: 'Code Incidents (All)', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=2e9d062f4c6e4cac9ec10024ebc8eb7b'},
 			{ type: 'internal', name: 'Code Simple Map', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=193d2f120fa947aeb6fe65989faef9a9'},
 			{ type: 'internal', name: 'Detailed Parks Map', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=78f0ba56e43a4edeb9e2166ebf7c7337'},
