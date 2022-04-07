@@ -1,6 +1,6 @@
 <template>
   <div class="m-auto lg:w-10/12">
-    <h1 class="text-5xl mt-12 mb-12 2xl:mt-24 2xl:mb-20 font-bold" style="color: #4a4a4a">GIS Downloads</h1>
+    <h1 class="text-5xl mt-12 mb-12 2xl:mt-24 2xl:mb-12 font-bold" style="color: #4a4a4a">GIS Downloads</h1>
     <div class="m-auto grid grid-cols-1 lg:grid-cols-4 2xl:w-10/12">
       <div>
         <router-link
@@ -30,7 +30,7 @@
         >
           <div div class="text-lg p-2" style="color: #f8f8f8;">Polygon Features</div>
         </router-link>
-        <p class="m-auto mt-3 w-64">Building Footprints, City Limits, City Parcels, Council Districts E.T.J. & Future Landuse</p>
+        <p class="m-auto mt-3 w-64">Building Footprints, City Limits, City Parcels, Council Districts, E.T.J. & Future Landuse</p>
       </div>
       <div>
         <router-link

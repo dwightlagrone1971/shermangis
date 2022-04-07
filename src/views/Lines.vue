@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-5xl mt-12 mb-12 font-bold 2xl:mt-24 2xl:mb-20" style="color: #4a4a4a">GIS Line Features</h1>
+    <h1 class="text-5xl mt-12 mb-12 font-bold 2xl:mt-24 2xl:mb-16" style="color: #4a4a4a">GIS Line Features</h1>
     <div class="m-auto grid grid-cols-1 lg:grid-cols-2 lg:w-9/12 2xl:w-4/12">
       <div
         v-for="item in items"
