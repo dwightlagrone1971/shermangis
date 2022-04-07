@@ -10,7 +10,7 @@
         >
           <div div class="text-lg p-2" style="color: #f8f8f8;">Point Features</div>
         </router-link>
-        <p class="m-auto mt-3 w-64">Addresses, Control Points, Parks & Recreation, Points of Interest, Sherman Schools & traffic Counts </p>
+        <p class="m-auto mt-3 w-64">Addresses, Control Points, Parks & Recreation, Points of Interest, Sherman Schools & Traffic Counts </p>
       </div>
       <div>
         <router-link
@@ -20,7 +20,7 @@
         >
           <div div class="text-lg p-2" style="color: #f8f8f8;">Line Features</div>
         </router-link>
-        <p class="m-auto mt-3 w-64">Pavement Edge & Traffic Counts</p>
+        <p class="m-auto mt-3 w-64">Pavement Edge & Road Centerlines</p>
       </div>
       <div>
         <router-link
