@@ -6,7 +6,7 @@
         v-for="item in items"
         :key="item"
         style="background-color: #4a4a4a;"
-        class="m-auto mb-6 pb-10 w-72 2xl:w-84 h-14 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
+        class="shadow-2xl m-auto mb-6 pb-10 w-72 2xl:w-84 h-14 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
         <a :href="item.url" :title="item.name" target="_blank">
           <div
             class="text-lg p-3"
@@ -21,7 +21,7 @@
       style="background-color: #4a4a4a;"
       to="/external"
     >
-      <div class="text-lg p-2" style="color: #f8f8f8;">More Maps</div>
+      <div class="text-lg p-2 shadow-2xl" style="color: #f8f8f8;">More Maps</div>
     </router-link>
   </div>
 </template>

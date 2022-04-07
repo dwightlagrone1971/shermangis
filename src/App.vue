@@ -3,7 +3,7 @@
 
       <Header />
       <Menu />
-      <router-view class="h-screen"/>
+      <router-view class="h-984"/>
       <Footer id="footer"/>
 
   </div>
@@ -38,6 +38,7 @@ export default {
   bottom:0;
 }
 body {
+  background-size: cover;
   background-color: #f8f8f8;
   background-image: url('https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5b951cedd3b3404e89b120e839894be7/data');
 }
