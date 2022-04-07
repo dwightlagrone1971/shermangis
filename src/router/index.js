@@ -10,6 +10,9 @@ import Internal from '../views/Internal.vue'
 import PDFMaps from '../views/PDFMaps.vue'
 import WhatIsGIS from '../views/WhatIsGIS.vue'
 import WhatIsGPS from '../views/WhatIsGPS.vue'
+import Points from '../views/Points.vue'
+import Lines from '../views/Lines.vue'
+import Polygons from '../views/Polygons.vue'
 
 const routes = [
   {
@@ -61,6 +64,21 @@ const routes = [
     path: '/whatisgps',
     name: 'WhatIsGPS',
     component: WhatIsGPS
+  },
+  {
+    path: '/points',
+    name: 'Points',
+    component: Points
+  },
+  {
+    path: '/lines',
+    name: 'Lines',
+    component: Lines
+  },
+  {
+    path: '/polygons',
+    name: 'Polygons',
+    component: Polygons
   }
 ]
 

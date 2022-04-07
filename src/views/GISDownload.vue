@@ -2,24 +2,45 @@
   <div class="m-auto lg:w-10/12">
     <h1 class="text-5xl mt-12 mb-12 2xl:mt-24 2xl:mb-20 font-bold" style="color: #4a4a4a">GIS Downloads</h1>
     <div class="m-auto grid grid-cols-1 lg:grid-cols-4 2xl:w-10/12">
-      <div
-        v-for="item in items"
-        :key="item"
-      >
-        <div
+      <div>
+        <router-link
+          class="m-auto mt-8 w-72 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
           style="background-color: #4a4a4a;"
-          class="m-auto mb-6 pb-10 w-72 h-12 2xl:w-72 h-12 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
-          <a :href="item.url" :title="item.name" target="_blank">
-            <div
-              class="text-lg p-3"
-              style="color: #f8f8f8;">
-              {{ item.name }}
-            </div>
-          </a>
-        </div>
-        <div>
-          <h4 class="m-auto -mt-4 mb-8 w-60">{{ item.text }}</h4>
-        </div>
+          to="/points"
+        >
+          <div div class="text-lg p-2" style="color: #f8f8f8;">Point Features</div>
+        </router-link>
+        <p class="m-auto mt-3 w-64">Addresses Points, Control Points, Parks & Recreation, Points of Interest, Sherman Schools & traffic Counts </p>
+      </div>
+      <div>
+        <router-link
+          class="m-auto mt-8 w-72 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
+          style="background-color: #4a4a4a;"
+          to="/lines"
+        >
+          <div div class="text-lg p-2" style="color: #f8f8f8;">Line Features</div>
+        </router-link>
+        <p class="m-auto mt-3 w-64">Pavement Edge, Traffic Counts</p>
+      </div>
+      <div>
+        <router-link
+          class="m-auto mt-8 w-72 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
+          style="background-color: #4a4a4a;"
+          to="/polygons"
+        >
+          <div div class="text-lg p-2" style="color: #f8f8f8;">Polygon Features</div>
+        </router-link>
+        <p class="m-auto mt-3 w-64">Building Footprints, City Limits, Council Districts E.T.J., Future Landuse & Parcels</p>
+      </div>
+      <div>
+        <router-link
+          class="m-auto mt-8 w-72 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
+          style="background-color: #4a4a4a;"
+          to="/contacts"
+        >
+          <div div class="text-lg p-2" style="color: #f8f8f8;">Contact Us</div>
+        </router-link>
+        <p class="m-auto mt-3 w-64">Can't find what you are looking contact us</p>
       </div>
     </div>
   </div>
@@ -45,3 +66,6 @@ export default {
 <style scoped>
 
 </style>
+
+
+gisdownloads

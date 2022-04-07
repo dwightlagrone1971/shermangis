@@ -39,7 +39,7 @@ export default {
 }
 body {
   background-color: #f8f8f8;
-  /* background-image: url('https://www.designbolts.com/wp-content/uploads/2013/02/Rough-Grey-Seamless-Pattern-For-Website-Background.jpg'); */
+  background-image: url('https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5b951cedd3b3404e89b120e839894be7/data');
 }
 
 </style>
