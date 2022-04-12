@@ -6,7 +6,7 @@
         v-for="item in items"
         :key="item"
         style="background-color: #4a4a4a;"
-        class="m-auto mb-8 pb-10 w-72 h-14 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
+        class="m-auto mb-8 pb-10 w-72 lg:w-68 h-14 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
         <a :href="item.url" :title="item.name" target="_blank">
           <div
             class="text-lg p-3 2xl:mb-6"
