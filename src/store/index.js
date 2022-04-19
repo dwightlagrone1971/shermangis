@@ -49,7 +49,7 @@ const store = createStore({
 			{ type: 'lines', name: 'Road Centerlines', url: 'https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::road-centerlines/about' },
 			{ type: 'menuItems', name: 'About Page', to: '/about' },
 			{ type: 'menuItems', name: 'Featured Items', to: '/' },
-			{ type: 'menuItems', name: 'GIS Downloads', to: '/gisdownload' },
+			{ type: 'menuItems', name: 'GIS Downloads', to: '/download' },
 			{ type: 'menuItems', name: 'Infographics', to: '/infographics' },
 			{ type: 'menuItems', name: 'Internal Web Maps', to: '/internal' },
 			{ type: 'menuItems', name: 'PDF Maps', to: '/pdfmaps' },

@@ -4,7 +4,7 @@ import About from '../views/About.vue'
 import Contacts from '../views/Contacts.vue'
 import External from '../views/External.vue'
 import Featured from '../views/Featured.vue'
-import GISDownload from '../views/GISDownload.vue'
+import Download from '../views/Download.vue'
 import Infographics from '../views/Infographics.vue'
 import Internal from '../views/Internal.vue'
 import PDFMaps from '../views/PDFMaps.vue'
@@ -36,9 +36,9 @@ const routes = [
     component: External
   },
   {
-    path: '/gisdownload',
-    name: 'GIS Download',
-    component: GISDownload
+    path: '/download',
+    name: 'Download',
+    component: Download
   },
   {
     path: '/infographics',
