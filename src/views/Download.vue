@@ -5,6 +5,7 @@
       <div>
         <a
           href="https://data-cityofsherman.opendata.arcgis.com/search?tags=download"
+          target="_blank"
           class="m-auto mt-8 lg:w-56 2xl:w-60 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
           style="background-color: #4a4a4a;"
         >
