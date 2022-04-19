@@ -4,8 +4,8 @@
     <div class="m-auto grid grid-cols-1 lg:grid-cols-2 2xl:w-5/12">
       <div>
         <a
-          href="https://data-cityofsherman.opendata.arcgis.com/search"
-          class="m-auto mt-8 w-72 lg:w-56 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
+          href="https://data-cityofsherman.opendata.arcgis.com/search?tags=download"
+          class="m-auto mt-8 w-96 lg:w-56 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
           style="background-color: #4a4a4a;"
         >
           <div div class="m-auto text-md p-2 lg:w-56" style="color: #f8f8f8;">GIS Downloads</div>
