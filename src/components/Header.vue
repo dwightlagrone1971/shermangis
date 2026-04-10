@@ -1,6 +1,6 @@
 <template>
     <div class="w-full">
-      <div class="right-0 z-1 absolute m-auto w-12/12">
+      <div class="right-0 z-1 absolute m-auto w-12/12 justify-left lg:w-5/12">
         <div class="pt-6 lg:pr-20 text-white relative fixed inset-x-0 top-0">
           <h1 class="text-xl">Welcome</h1>
           <h1 class="text-3xl">Analyze Sherman</h1>
