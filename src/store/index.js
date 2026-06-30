@@ -428,7 +428,7 @@ const store = createStore({
 			{ 
 				type: 'internal', 
 				name: 'Water, Sewer & Drainage Map', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=42207f3341864351a12bdf0d886196ae',
+				url: 'https://www.arcgis.com/apps/dashboards/489c3c21fef747feb65d9e0aab54acc1#',
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
 				
 				
