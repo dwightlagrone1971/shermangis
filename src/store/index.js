@@ -425,11 +425,12 @@ const store = createStore({
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/789607a5260b4fe5a0d4fe2ecef8c24b', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8f1c813391004107a02eb625241c99c0/data',
 			},
-			//{ 
-			//	type: 'internal', 
-			//	name: 'Water, Sewer & Drainage Map', 
-			//	url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=68eed88408cb4db18ffbde113437089a',
-			//	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
+			{ 
+				type: 'internal', 
+				name: 'Water, Sewer & Drainage Map', 
+				url: 'https://www.arcgis.com/apps/dashboards/489c3c21fef747feb65d9e0aab54acc1#',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
+					https://www.arcgis.com/apps/dashboards/489c3c21fef747feb65d9e0aab54acc1#
 				
 				
 			//},
