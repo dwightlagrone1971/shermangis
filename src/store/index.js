@@ -430,9 +430,10 @@ const store = createStore({
 				name: 'Water, Sewer & Drainage Map', 
 				url: 'https://www.arcgis.com/apps/dashboards/489c3c21fef747feb65d9e0aab54acc1#',
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
+					https://www.arcgis.com/apps/dashboards/489c3c21fef747feb65d9e0aab54acc1#
 				
 				
-			},
+			//},
 			{ 
 				// type: 'internal', 
 				// name: 'UB Accounts', 
