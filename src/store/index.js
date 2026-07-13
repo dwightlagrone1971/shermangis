@@ -188,7 +188,7 @@ const store = createStore({
 			},
 			{ 
 				type: 'external', 
-				name: 'Flood Zones', 
+				name: 'FEMA Flood Zones', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/6a2aedbb87a64b459e5eb2bdac3f4503',
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/7c1e45f0c48e4c2f83389664b5e992d6/data'
 			},
