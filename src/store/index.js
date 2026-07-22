@@ -56,7 +56,7 @@ const store = createStore({
 			{ 
 				type: 'downloads', 
 				name: 'Addresses', 
-				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/f909fc649ae743d1bef601b312dbb402_4/explore?location=33.616807%2C-96.619061%2C11.64", 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/3ed717bdd281426e9994b9d4ff1d8e1d_4/explore?location=33.617307%2C-96.619061%2C11", 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/578a14c48acf4e2180ef9da620bce3de/data' 
 			},
 			{ 
