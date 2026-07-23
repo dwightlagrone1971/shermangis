@@ -116,7 +116,7 @@ const store = createStore({
 			{ 
 				type: 'downloads', 
 				name: 'Planned Developments', 
-				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/f702eafd15d444bc856bddb7c51221e0_19/explore?location=33.619679%2C-96.631264%2C11.50", 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/documents/cf38bef2ed614d07bd278e806b84ab39/explore", 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/6be18d2c4a814d0583ff249ce2982e48/data' 
 			},
 			{ 
