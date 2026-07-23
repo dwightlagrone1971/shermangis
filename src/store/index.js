@@ -68,7 +68,7 @@ const store = createStore({
 			{ 
 				type: 'downloads', 
 				name: 'Building Footprints', 
-				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/f93cbef937cf4699b07cc1d1cba8ff2e_1/explore?location=33.563302%2C-96.632317%2C11.28", 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/5b70a553879c409cb958f95cb8432514_0/explore?location=33.563740%2C-96.632260%2C11", 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5cd58e81f3b8426a9cc73a5a4a8565cd/data' 
 			},
 			{ 
