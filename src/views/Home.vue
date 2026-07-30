@@ -4,7 +4,7 @@
       <div class="m-auto w-3/4">
         <div class="m-auto my-10">
           <h1 class="text-blue-900 font-freight-sans-pro helvetica serif m-auto mt-12 mb-1 text-5xl font-bold">GIS Maps</h1>
-          <h1 class="text-blue-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8">The City of Sherman began developing its Geographic Information Systems (GIS) technology in 2011. GIS and related-technologies help city staff manage new development and changes in our infrastructure and natural environment. Visitors may access city GIS data through Internet-based applications and traditional maps.</h1>
+          <h1 class="text-blue-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-6 2xl:mb-1 p-8">The City of Sherman began developing its Geographic Information Systems (GIS) technology in 2011. GIS and related-technologies help city staff manage new development and changes in our infrastructure and natural environment. Visitors may access city GIS data through Internet-based applications and traditional maps.</h1>
         </div>
         <div class="m-auto my-10">
           <h1 class="text-blue-900 font-freight-sans-pro helvetica mb-1 text-3xl 2xl:mt-18 2xl:mb-1 font-bold italic">Public-Facing GIS "Featured" Applications</h1>
@@ -59,7 +59,7 @@ Downtown Sherman has a combination of public and private parking lots. Look for 
           <h1 class="pl-4 pr-4 text-white">Find the datasets powering our GIS maps by vising our open data portal.</h1>
           <router-link to="/downloads"><button class="text-white underline p-2 mt-10 mx-2 rounded-md hover:bg-gray-500">VIEW THE DATASETS</button></router-link>
         </div>
-        <div style="background-color: #676e20" class="m-auto border-2 bg-gray-300 pb-8 mb-10 p-2">
+        <div style="background-color: #676e20" class="m-auto pb-8 mb-10 p-2">
           <h1 class="m-auto align-top text-2xl pb-4 pl-4 pr-4 text-white md:mt-4">Your Place</h1>
           <h1 class="pt-4 pl-4 pr-4 text-white">Your Place provides a property information report that includes zoning information, polling place locations, police beats, legislative districts and much mor</h1>
           <a href="https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626" target="_blank"><button class="text-white underline p-2 font-bold mt-10 mx-2 rounded-md hover:bg-green-900">VISIT "YOUR PLACE" NOW</button></a>
