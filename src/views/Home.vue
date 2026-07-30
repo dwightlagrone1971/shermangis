@@ -8,23 +8,23 @@
         </div>
         <div class="m-auto my-10">
           <h1 class="text-blue-900 font-freight-sans-pro helvetica mb-1 text-3xl 2xl:mt-18 2xl:mb-1 font-bold italic">Public-Facing GIS "Featured" Applications</h1>
-          <h1 class="text-blue-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8">The following is a list of public-facing GIS applications that the City of Sherman currently provides.</h1>
+          <h1 class="text-blue-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-2 2xl:mb-1 p-8">The following is a list of public-facing GIS applications that the City of Sherman currently provides.</h1>
         </div>
         <div class="m-auto my-10">
           <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/c984e25f1f824e3ea31564ae1477a89e" target="_blank" class="text-blue-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Downtown Parking</a>        
-            <h1 class="text-blue-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
+            <h1 class="text-blue-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-2 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
             href="mailto: NateS@cityofsherman.com"
             class="text-xl font-semibold underline text-blue-900"
             target="_blank"
             >Nate Strauch
           </a>
-          </span><br><span class="italic font-semibold">On-Street Parking</span> - 
+          </span><br><span class="italic font-semibold">Paid Parking</span> - Effective May 2025, the City has discontinued the paid parking program. The Laurel Street lot is now free for all-day parking. Contact the City Finance Department if you've already paid for the next year..<br><span class="italic font-semibold">On-Street Parking</span> - 
 All street parking and along cross streets is available unless otherwise marked for special events.<br><span class="italic font-semibold">Off-Street Parking</span> - 
 Downtown Sherman has a combination of public and private parking lots. Look for lots that have 'Free Public Parking' signs near their entrance.</h1>
         </div>
         <div class="m-auto my-10">
           <a href="https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c" target="_blank" class="text-blue-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Garbage Collection Map</a>        
-            <h1 class="text-blue-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
+            <h1 class="text-blue-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-2 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
             href="mailto: jimmym@cityofsherman.com"
             class="text-xl font-semibold underline text-blue-900"
             target="_blank"
