@@ -1,6 +1,6 @@
 <template>
   <div class="border-2 border-gray-200 w-screen font-freight-sans-pro helvetica serif bg-white">
-    <div class="m-auto md:top-3 md:w-1/2 md:flex">
+    <div class="m-auto md:top-3 md:w-1/2 md:flex lg:mt-20">
       <div class="m-auto w-3/4">
         <div class="m-auto my-10">
           <h1 class="text-blue-900 font-freight-sans-pro helvetica serif m-auto mt-12 mb-1 text-5xl font-bold">GIS Maps</h1>
@@ -71,13 +71,13 @@ Downtown Sherman has a combination of public and private parking lots. Look for 
         </div>
       </div>
     </div>
-    <div class="relative w-full overflow-hidden h-24 md:relative md:w-full md:overflow-hidden md:h-48 ">
+    <div class="relative w-full overflow-hidden h-24 md:relative md:w-full md:overflow-hidden md:h-48 lg:w-full">
       <div class="w-screen">
         <img src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/02e72b43fd964d76a38a59d15d7ad4b3/data" alt="city base map">
       </div>
       <div class="absolute inset-y-0 right-0 w-3/4 bg-gradient-to-l from-red-900 to-transparent md:pl-96 md:w-3/4">
-        <h1 class="text-sm text-black font-serif pt-2 pl-32 md:absolute md:w-full md:mt-8 md:text-4xl">GIS Department</h1> 
-        <h1 class="text-sm text-black font-serif pl-32 md:absolute md:w-full md:mt-20 md:text-2xl">City of Sherman</h1> 
+        <h1 class="text-sm text-black font-serif pt-2 pl-32 md:absolute md:w-full md:mt-8 md:text-4xl lg:pr-60">GIS Department</h1> 
+        <h1 class="text-sm text-black font-serif pl-32 md:absolute md:w-full md:mt-20 md:text-2xl lg:pr-60">City of Sherman</h1> 
       </div>      
     </div>
   </div> 
