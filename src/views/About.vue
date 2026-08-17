@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-white border-2 border-gray-100">
+  <div class="h-screen bg-white border-2 border-gray-100 mt-14">
     <div class="text-blue-900 -bottom-11font-serif m-auto w-10/12 my-10 lg:w-9/12 2xl:w-6/12">
       <p class="text-blue-900 font-serif m-auto mb-6 2xl:py-10 text-lg font-bold">
         <span class="text-4xl text-blue-900">About Page </span>click buttons below for more information about the City of Sherman's GIS program and for information about GIS staff.</p>

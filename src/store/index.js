@@ -404,7 +404,8 @@ const store = createStore({
 			{ 
 				type: 'internal', 
 				name: 'Hydrant Maintenance', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/0156ab1a620d49a0b052814da3be563a', 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/0156ab1a620d49a0b052814da3be563a',
+				// src: "images/Hydrants.png" 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/18e187b03d1e4e97a2f9566318a89c8c/data' 
 			},
 			// { 

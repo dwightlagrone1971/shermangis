@@ -1,6 +1,6 @@
 <template>
  <div class="border-2 border-gray-200 md:m-auto md:h-screen">
-  <div class="text-2xl font-bold mt-12 md:text-3xl md:font-bold">
+  <div class="text-2xl font-bold mt-12 md:text-3xl md:font-bold mt-30">
     <h1>What is the Global Positional System (GPS)?</h1>
   </div>
   <div class="mt-12 m-auto md:-mt-2 md:grid md:grid-cols-5 md:w-8/12">

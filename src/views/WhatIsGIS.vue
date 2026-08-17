@@ -1,5 +1,5 @@
 <template>
-  <div class="m-auto h-fit p-auto pb-24 mb-24">
+  <div class="m-auto h-fit p-auto pb-24 mb-24 mt-14">
     <div class="pt-14 pb-10 text-3xl font-bold">
       <h1>What is geographic information services (GIS)?</h1>
     </div>

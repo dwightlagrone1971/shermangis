@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white border-2 border-gray-100">
+  <div class="bg-white border-2 border-gray-100 mt-14">
     <div class="text-blue-900 -bottom-11font-serif m-auto w-10/12 my-10 lg:w-9/12 2xl:w-6/12">
       <p class="text-blue-900 font-serif m-auto mb-6 2xl:py-10 text-lg font-bold">
         <span class="text-4xl text-blue-900">PDF Maps </span>the following pdf formats are available for download.</p>
