@@ -1,7 +1,7 @@
 <template>
- <div class="border-2 border-gray-200 md:m-auto md:h-screen">
-  <div class="text-2xl font-bold mt-12 md:text-3xl md:font-bold mt-30">
-    <h1>What is the Global Positional System (GPS)?</h1>
+ <div class="border-2 border-gray-200 md:m-auto md:min-h-screen">
+  <div class="mt-12 mt-30">
+    <h1 class="text-2xl md:text-3xl font-serif font-bold text-blue-900">What is the Global Positional System (GPS)?</h1>
   </div>
   <div class="mt-12 m-auto md:-mt-2 md:grid md:grid-cols-5 md:w-8/12">
     <div class="pl-28 md:pl-12 md:pt-12">
@@ -18,7 +18,7 @@ The GIS department gathers GPS positions for new development to ensure spatial a
   </div>
   <div class="h-60 text-blue-500 md:col-span-1 mt-12">
     <h6 class="font-semibold">External Links:</h6>
-    <ul v-for="link in links" :key="link">
+    <ul v-for="link in links" :key="link.url">
       <li class="underline">
         <a :href="link.url" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
       </li>

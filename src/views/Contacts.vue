@@ -1,10 +1,10 @@
 <template>
-  <div class="mb-16 w-screen pb-10 md:w-screen md:h-screen mt-14">
+  <div class="mb-16 w-screen pb-10 md:w-screen md:min-h-screen mt-14">
     <div class="py-2 w-screen md:m-auto">
-      <h3 class="m-auto text-blue-900 w-72 font-serif m-auto text-5xl font-bold py-10 2xl:py-10">Contact Page</h3>
+      <h1 class="m-auto text-blue-900 w-72 font-serif m-auto text-5xl font-bold py-10 2xl:py-10">Contact Page</h1>
       <div class="m-auto md:grid md:grid-cols-3 md:w-8/12">
       <div
-        class="py-8 px-8 mb-10 shadow-2xl rounded-3xl 2xl:w-72 w-72 ml-16 mb-10 bg-[#08244c]"
+        class="py-8 px-8 mb-10 shadow-2xl rounded-3xl 2xl:w-72 w-72 ml-16 mb-10 bg-brand-primary"
         v-for="contact in items"
         :key="contact.email"
       >
