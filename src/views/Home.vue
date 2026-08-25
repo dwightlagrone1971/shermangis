@@ -11,11 +11,12 @@
           <h1 class="text-blue-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-2 2xl:mb-1 p-8">The following is a list of public-facing GIS applications that the City of Sherman currently provides.</h1>
         </div>
         <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/c984e25f1f824e3ea31564ae1477a89e" target="_blank" class="text-blue-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Downtown Parking</a>        
+          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/c984e25f1f824e3ea31564ae1477a89e" target="_blank" rel="noopener noreferrer" class="text-blue-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Downtown Parking</a>
             <h1 class="text-blue-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-2 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
             href="mailto: NateS@cityofsherman.com"
             class="text-xl font-semibold underline text-blue-900"
             target="_blank"
+            rel="noopener noreferrer"
             >Nate Strauch
           </a>
           </span><br><span class="italic font-semibold">Paid Parking</span> - Effective May 2025, the City has discontinued the paid parking program. The Laurel Street lot is now free for all-day parking. Contact the City Finance Department if you've already paid for the next year..<br><span class="italic font-semibold">On-Street Parking</span> - 
@@ -23,11 +24,12 @@ All street parking and along cross streets is available unless otherwise marked 
 Downtown Sherman has a combination of public and private parking lots. Look for lots that have 'Free Public Parking' signs near their entrance.</h1>
         </div>
         <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c" target="_blank" class="text-blue-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Garbage Collection Map</a>        
+          <a href="https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c" target="_blank" rel="noopener noreferrer" class="text-blue-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Garbage Collection Map</a>
             <h1 class="text-blue-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-2 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
             href="mailto: jimmym@cityofsherman.com"
             class="text-xl font-semibold underline text-blue-900"
             target="_blank"
+            rel="noopener noreferrer"
             >Jimmy Mrozinski
           </a>
           </span><br>The Garbage Collection Map allows the public to see whether or not they receive garbage collection service from the City and on what day pick-up occurs. Links to service provider phone numbers and garbage cart ordering information is provided.</h1>
@@ -62,7 +64,7 @@ Downtown Sherman has a combination of public and private parking lots. Look for 
         <div style="background-color: #676e20" class="m-auto pb-8 mb-10 p-2">
           <h1 class="m-auto align-top text-2xl pb-4 pl-4 pr-4 text-white md:mt-4">Your Place</h1>
           <h1 class="pt-4 pl-4 pr-4 text-white">Your Place provides a property information report that includes zoning information, polling place locations, police beats, legislative districts and much mor</h1>
-          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/468b0ee6e8a6491bb95fdfe49d51f8b0#" target="_blank"><button class="text-white underline p-2 font-bold mt-10 mx-2 rounded-md hover:bg-green-900">VISIT "YOUR PLACE" NOW</button></a>
+          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/468b0ee6e8a6491bb95fdfe49d51f8b0#" target="_blank" rel="noopener noreferrer"><button class="text-white underline p-2 font-bold mt-10 mx-2 rounded-md hover:bg-green-900">VISIT "YOUR PLACE" NOW</button></a>
         </div>
         <div style="background-color: #08244c" class="m-auto border-2 bg-gray-300 pb-8 mb-10 p-2">
           <h1 class="m-auto align-top text-2xl p-4 text-white">More Public Maps</h1>

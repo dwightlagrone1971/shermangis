@@ -6,7 +6,7 @@
         :key="item"
         class="m-auto inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
       >
-        <a :href="item.url" :title="item.name" class="" target="_blank">
+        <a :href="item.url" :title="item.name" class="" target="_blank" rel="noopener noreferrer">
           <div class="text-sm mb-6" style="color: #f8f8f8;">
             {{ item.name }}
           </div>

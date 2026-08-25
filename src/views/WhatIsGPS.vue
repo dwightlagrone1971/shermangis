@@ -20,7 +20,7 @@ The GIS department gathers GPS positions for new development to ensure spatial a
     <h6 class="font-semibold">External Links:</h6>
     <ul v-for="link in links" :key="link">
       <li class="underline">
-        <a :href="link.url" target="_blank">{{ link.name }}</a>
+        <a :href="link.url" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
       </li>
     </ul>
       </div>
