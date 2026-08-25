@@ -1,66 +1,55 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 
-import About from '../views/About.vue'
-import Contacts from '../views/Contacts.vue'
-import External from '../views/External.vue'
-import Home from '../views/Home.vue'
-import Download from '../views/Download.vue'
-import Infographics from '../views/Infographics.vue'
-import Internal from '../views/Internal.vue'
-import PDFMaps from '../views/PDFMaps.vue'
-import WhatIsGIS from '../views/WhatIsGIS.vue'
-import WhatIsGPS from '../views/WhatIsGPS.vue'
-
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: () => import('../views/Home.vue')
   },
   {
     path: '/about',
     name: 'About',
-    component: About
+    component: () => import('../views/About.vue')
   },
   {
     path: '/contacts',
     name: 'Contacts',
-    component: Contacts
+    component: () => import('../views/Contacts.vue')
   },
   {
     path: '/externals',
     name: 'External',
-    component: External
+    component: () => import('../views/External.vue')
   },
   {
     path: '/downloads',
     name: 'Download',
-    component: Download
+    component: () => import('../views/Download.vue')
   },
   {
     path: '/infographics',
     name: 'Infographics',
-    component: Infographics
+    component: () => import('../views/Infographics.vue')
   },
   {
     path: '/internal',
     name: 'Internal',
-    component: Internal
+    component: () => import('../views/Internal.vue')
   },
   {
     path: '/pdfmaps',
     name: 'PDF Maps',
-    component: PDFMaps
+    component: () => import('../views/PDFMaps.vue')
   },
   {
     path: '/whatisgis',
     name: 'WhatIsGIS',
-    component: WhatIsGIS
+    component: () => import('../views/WhatIsGIS.vue')
   },
   {
     path: '/whatisgps',
     name: 'WhatIsGPS',
-    component: WhatIsGPS
+    component: () => import('../views/WhatIsGPS.vue')
   }
 ]
 
