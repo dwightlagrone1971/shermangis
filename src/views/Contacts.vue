@@ -4,10 +4,9 @@
       <h3 class="m-auto text-blue-900 w-72 font-serif m-auto text-5xl font-bold py-10 2xl:py-10">Contact Page</h3>
       <div class="m-auto md:grid md:grid-cols-3 md:w-8/12">
       <div
-        class="py-8 px-8 mb-10 shadow-2xl rounded-3xl 2xl:w-72 w-72 ml-16 mb-10"
+        class="py-8 px-8 mb-10 shadow-2xl rounded-3xl 2xl:w-72 w-72 ml-16 mb-10 bg-[#08244c]"
         v-for="contact in items"
-        :key="contact"
-        style="background-color: #08244c"
+        :key="contact.email"
       >
       <div class="m-auto">
         <h2 class="mb-2 text-white text-2xl font-semibold">{{ contact.name }}</h2>
@@ -40,21 +39,11 @@
   </div>
 </template>
 
-<script>
-import { useStore } from 'vuex'
-import { computed, ref } from 'vue'
+<script setup>
+import { computed } from 'vue'
+import { getItems } from '../data/items.js'
 
-export default {
-  setup() {
-    const store = useStore();
-    const items = computed(() => store.getters.getItems('contacts'))
-
-
-    return { items, store }
-  }
-}
-
-
+const items = computed(() => getItems('contacts'))
 </script>
 
 

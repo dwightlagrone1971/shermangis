@@ -6,10 +6,6 @@
   </CardGrid>
 </template>
 
-<script>
+<script setup>
 import CardGrid from '../components/CardGrid.vue'
-
-export default {
-  components: { CardGrid }
-}
 </script>

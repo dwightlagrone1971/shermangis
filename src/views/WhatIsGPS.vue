@@ -29,16 +29,10 @@ The GIS department gathers GPS positions for new development to ensure spatial a
 </template>
 
 
-<script>
-export default {
-  data() {
-    return {
-      links: [
-        { name: 'American Congress on Surveying and Mapping', url: 'https://www.partneresi.com/resources/glossary/american-congress-on-surveying-and-mapping-acsm/'},
-        { name: 'National Geodetic Survey', url: 'http://www.ngs.noaa.gov/'},
-        { name: 'U.S. Coast Guard Navigation Center', url: 'http://www.navcen.uscg.gov/'}
-      ]
-    }
-  }
-};
+<script setup>
+const links = [
+  { name: 'American Congress on Surveying and Mapping', url: 'https://www.partneresi.com/resources/glossary/american-congress-on-surveying-and-mapping-acsm/' },
+  { name: 'National Geodetic Survey', url: 'http://www.ngs.noaa.gov/' },
+  { name: 'U.S. Coast Guard Navigation Center', url: 'http://www.navcen.uscg.gov/' }
+]
 </script>

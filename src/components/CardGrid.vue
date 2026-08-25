@@ -23,34 +23,27 @@
   </div>
 </template>
 
-<script>
-import { useStore } from 'vuex'
+<script setup>
 import { computed } from 'vue'
+import { getItems } from '../data/items.js'
 
-export default {
-  name: 'CardGrid',
-  props: {
-    // store `type` to pull cards from, e.g. 'downloads', 'external'
-    type: {
-      type: String,
-      required: true
-    },
-    // extra classes for each thumbnail <img>; card grids vary slightly here
-    imgClass: {
-      type: String,
-      default: 'shadow-2xl h-auto transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none'
-    },
-    // a couple of pages wrap their content in a full-viewport-height div
-    wrapped: {
-      type: Boolean,
-      default: false
-    }
+const props = defineProps({
+  // store `type` to pull cards from, e.g. 'downloads', 'external'
+  type: {
+    type: String,
+    required: true
   },
-  setup(props) {
-    const store = useStore()
-    const items = computed(() => store.getters.getItems(props.type))
-
-    return { items }
+  // extra classes for each thumbnail <img>; card grids vary slightly here
+  imgClass: {
+    type: String,
+    default: 'shadow-2xl h-auto transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none'
+  },
+  // a couple of pages wrap their content in a full-viewport-height div
+  wrapped: {
+    type: Boolean,
+    default: false
   }
-}
+})
+
+const items = computed(() => getItems(props.type))
 </script>
