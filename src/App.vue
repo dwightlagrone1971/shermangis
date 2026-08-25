@@ -3,25 +3,17 @@
 
       <Header />
       <Menu />
-      <router-view class="menu" />
-      <Footer class="footer" />
+      <router-view class="page-bg" />
+      <Footer />
 
   </div>
 
 </template>
 
-
-<script>
+<script setup>
 import Header from "./components/Header.vue";
 import Menu from "./components/Menu.vue";
 import Footer from "./components/Footer.vue";
-
-export default {
-  name: "App",
-  components: {
-    Header, Menu, Footer,
-  },
-}
 </script>
 
 <style>
@@ -33,18 +25,9 @@ export default {
   color: #2c3e50;
 
 }
-.footer {
-  position:fixed;
-  bottom:0;
-}
-.menu {
+.page-bg {
   background-size: cover;
-  background-image: url('https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/f9ee3c7d41e24ec9b9f3516958c1e4a7/data');;
-}
-.bg-image {
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
+  background-image: url('https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/f9ee3c7d41e24ec9b9f3516958c1e4a7/data');
 }
 
 </style>
