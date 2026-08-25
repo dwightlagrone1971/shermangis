@@ -36,7 +36,9 @@ export default {
   methods: {
     scrollToElement() {
       let element = document.getElementById('bottom');
-      element.scrollIntoView(true);
+      if (element) {
+        element.scrollIntoView(true);
+      }
     }
   }
 }

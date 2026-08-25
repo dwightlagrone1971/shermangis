@@ -8,7 +8,6 @@
       <div
         v-for="item in items"
         :key="item"
-        :click="item.to"
         class="bg-blue-900 m-auto mb-6 pb-10 w-48 2xl:w-60 h-12 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
         <router-link :to="item.to">
           <div

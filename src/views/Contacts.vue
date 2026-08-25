@@ -19,16 +19,14 @@
         <h2 class="text-xl text-white">{{ contact.city }}</h2>
           <div class="">
             <a
-              href="tel+:{{ contact.phone }}" 
+              :href="'tel:' + contact.phone.replace(/\D/g, '')"
               class="text-xl text-white"
-              target="_blank"
             >{{ contact.phone }}</a>
           </div>
           <div class="">
           <a
-            href="mailto:{{contact.email}}"
-            class="text-xl text-white underline hover:bg-blue-500 pd-2"            
-            target="_blank"
+            :href="contact.email"
+            class="text-xl text-white underline hover:bg-blue-500 pd-2"
           >Click to Email</a>
           </div>
         </div>
@@ -36,7 +34,7 @@
       
       </div>
       <div class="md:m-auto">
-        <router-link class="bg-blue-900 w-full text-white p-3 mt-2 md:rounded" to="/about" tag="button">Back to About Page</router-link>
+        <router-link class="bg-blue-900 w-full text-white p-3 mt-2 md:rounded" to="/about">Back to About Page</router-link>
       </div>
     </div>
   </div>

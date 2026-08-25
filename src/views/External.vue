@@ -9,7 +9,7 @@
        v-for="item in items"
         :key="item"
     >
-        <a :href=item.url target=”_blank >
+        <a :href="item.url" target="_blank">
           <img 
           class="w-48 h-36 shadow-2xl h-auto transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" 
           :src=item.src alt="">

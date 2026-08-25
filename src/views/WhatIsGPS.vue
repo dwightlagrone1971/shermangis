@@ -13,7 +13,7 @@
 The GIS department gathers GPS positions for new development to ensure spatial accuracy when recording city assets. City assets include fire hydrants, water lines and associated valves, storm lines, sewer lines and land records, such as, parcel and subdivision boundaries. Spatially accurate data enable staff to locate assets in the future, especially if they become buried.</p>
     </div>
       <div class="mt-12 pl-20">
-        <router-link class="bg-blue-900 text-white p-2 md:mt-10 md:py-2 md:px-4 md:rounded md:ml-36" to="/about" tag="button">Back to About Page</router-link>
+        <router-link class="bg-blue-900 text-white p-2 md:mt-10 md:py-2 md:px-4 md:rounded md:ml-36" to="/about">Back to About Page</router-link>
       </div>    
   </div>
   <div class="h-60 text-blue-500 md:col-span-1 mt-12">

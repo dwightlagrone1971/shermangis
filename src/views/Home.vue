@@ -67,7 +67,7 @@ Downtown Sherman has a combination of public and private parking lots. Look for 
         <div style="background-color: #08244c" class="m-auto border-2 bg-gray-300 pb-8 mb-10 p-2">
           <h1 class="m-auto align-top text-2xl p-4 text-white">More Public Maps</h1>
           <h1 class="p-4 text-white pb-12">Find more public maps in our open data portal.</h1>
-          <router-link class="text-white underline p-2 mx-4 rounded-md hover:bg-blue-500" to="/externals" tag="button">MORE MAPS</router-link>
+          <router-link class="text-white underline p-2 mx-4 rounded-md hover:bg-blue-500" to="/externals">MORE MAPS</router-link>
         </div>
       </div>
     </div>
