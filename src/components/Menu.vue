@@ -10,7 +10,7 @@
         <router-link :to="item.to">
           <div>
             <!-- <div class="border-2 w-16 text-lg rounded-full m-auto rounded-full inline-block border-2 border-white bg-red-800 text-white w-18 lg:w-16 lg:h-16 2xl:h-18 transition transform p-4 rounded hover:bg-red-800 hover:text-white transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">{{ item.icon }}</div> -->
-            <img :src="item.icon" class="bg-[#005095] h-16 w-16 rounded-full m-auto inline-block md:h-16 md:border-2 md:rounded-full
+            <img :src="item.icon" class="bg-brand-accent h-16 w-16 rounded-full m-auto inline-block md:h-16 md:border-2 md:rounded-full
             border-4 border-white text-white w-18 lg:w-18 lg:h-16 2xl:h-18 transition transform p-4 rounded hover:text-white transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" alt="" />
           </div>
           <div>
