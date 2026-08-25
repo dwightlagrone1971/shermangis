@@ -17,8 +17,14 @@ import Footer from "./components/Footer.vue";
 </script>
 
 <style>
-#app {
+/* Element selector on purpose (not #app) -- keeps this below any
+   Tailwind font-serif/font-sans utility class in specificity, so
+   per-heading font choices actually take effect instead of always
+   losing to an ID selector. */
+body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+#app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
