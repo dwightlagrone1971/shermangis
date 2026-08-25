@@ -1,7 +1,7 @@
 <template>
-  <CardGrid type="internal" wrapped>
+  <CardGrid type="internal" heading="Internal Maps" wrapped>
     <template #blurb>
-      <span class="text-4xl text-blue-900">Internal Maps </span>interactive websites were created for internal staff.  You will need city credentials to access these maps.
+      interactive websites were created for internal staff.  You will need city credentials to access these maps.
     </template>
   </CardGrid>
 </template>

@@ -1,7 +1,7 @@
 <template>
-  <CardGrid type="pdfMaps">
+  <CardGrid type="pdfMaps" heading="PDF Maps">
     <template #blurb>
-      <span class="text-4xl text-blue-900">PDF Maps </span>the following pdf formats are available for download.
+      the following pdf formats are available for download.
     </template>
   </CardGrid>
 </template>
