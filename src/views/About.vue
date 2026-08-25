@@ -11,7 +11,7 @@
         class="bg-blue-900 m-auto mb-6 pb-10 w-48 2xl:w-60 h-12 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
         <router-link :to="item.to">
           <div
-            class="font-serif text-md p-3 text-blue-900 text-[#f8f8f8]">
+            class="font-serif text-md p-3 text-[#f8f8f8]">
             {{ item.name }}
           </div>
         </router-link>
