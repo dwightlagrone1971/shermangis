@@ -1,6 +1,6 @@
 <template>
-  <div app class="bg-[#f3f3eb] pb-1 border-2 border-gray-300 flex items-center justify-center font-poppins lg:h-24">
-    <div class="pb-2 m-auto mt-14 w-11/12 max-w-4xl flex flex-wrap justify-center gap-x-4 gap-y-6 2xl:-mt-8">
+  <div app class="bg-[#f3f3eb] pb-1 border-2 border-gray-300 flex items-center justify-center font-poppins lg:min-h-24">
+    <div class="pb-2 my-4 mx-auto w-11/12 max-w-4xl flex flex-wrap justify-center gap-x-4 gap-y-6">
       <div
         v-on:click="scrollToElement"
         v-for="item in items"
