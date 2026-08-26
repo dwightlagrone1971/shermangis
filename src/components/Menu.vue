@@ -1,6 +1,6 @@
 <template>
   <div app class="bg-[#f3f3eb] pb-1 border-2 border-gray-300 flex items-center justify-center font-poppins lg:h-24">
-    <div class="pb-2 m-auto mt-14 w-36 grid grid-cols-1 w-9/12 lg:grid-cols-7 lg:w-8/12 2xl:-mt-8 2xl:grid-cols-7 2xl:w-6/12">
+    <div class="pb-2 m-auto mt-14 w-11/12 max-w-4xl grid grid-cols-[repeat(auto-fit,minmax(90px,1fr))] gap-x-4 gap-y-6 2xl:-mt-8">
       <div
         v-on:click="scrollToElement"
         v-for="item in items"
