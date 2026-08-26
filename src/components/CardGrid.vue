@@ -7,7 +7,7 @@
           <slot name="blurb" />
         </p>
       </div>
-      <div class="mx-auto mb-10 w-full max-w-6xl grid grid-cols-1 gap-x-6 gap-y-10 px-6 pb-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+      <div class="mx-auto mb-10 w-full max-w-7xl grid gap-x-6 gap-y-10 px-6 pb-4 grid-cols-[repeat(auto-fill,minmax(220px,1fr))]">
         <a
           v-for="item in items"
           :key="item.url"
