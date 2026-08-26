@@ -1,7 +1,14 @@
 @import "tailwindcss";
 
-@tailwind base;
-
-@tailwind components;
-
-@tailwind utilities;
+/* Brand palette: the handful of one-off colors used across the site,
+   named so they're reused deliberately instead of re-typed as arbitrary
+   hex values in each component (e.g. this generates bg-brand-primary,
+   text-brand-primary, border-brand-primary, and so on for each name). */
+@theme {
+  --color-brand-primary: #08244c;
+  --color-brand-accent: #005095;
+  --color-brand-olive: #676e20;
+  --color-brand-dark: #383838;
+  --color-brand-footer: #4a4a4a;
+  --color-brand-offwhite: #f8f8f8;
+}

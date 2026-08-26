@@ -3,48 +3,37 @@
 
       <Header />
       <Menu />
-      <router-view class="menu" />
-      <Footer class="footer" />
+      <router-view class="page-bg" />
+      <Footer />
 
   </div>
 
 </template>
 
-
-<script>
+<script setup>
 import Header from "./components/Header.vue";
 import Menu from "./components/Menu.vue";
 import Footer from "./components/Footer.vue";
-
-export default {
-  name: "App",
-  components: {
-    Header, Menu, Footer,
-  },
-}
 </script>
 
 <style>
-#app {
+/* Element selector on purpose (not #app) -- keeps this below any
+   Tailwind font-serif/font-sans utility class in specificity, so
+   per-heading font choices actually take effect instead of always
+   losing to an ID selector. */
+body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+#app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 
 }
-.footer {
-  position:fixed;
-  bottom:0;
-}
-.menu {
+.page-bg {
   background-size: cover;
-  background-image: url('https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/f9ee3c7d41e24ec9b9f3516958c1e4a7/data');;
-}
-.bg-image {
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
+  background-image: url('https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/f9ee3c7d41e24ec9b9f3516958c1e4a7/data');
 }
 
 </style>
