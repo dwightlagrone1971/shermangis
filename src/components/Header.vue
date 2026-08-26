@@ -21,16 +21,6 @@
 </template>
 
 
-<script>
-
-export default {
-  data() {
-    return {}
-  },
-};
-</script>
-
-
 <style>
 .home {
   background-image: url("~@/assets/home-background.png")

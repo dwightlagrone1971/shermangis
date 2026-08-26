@@ -1,40 +1,28 @@
- T<template>
-  <div class="m-auto w-screen" style="background-color: #4a4a4a;">
-    <div class="m-auto h-10 grid grid-cols-5 pt-4 lg:w-8/12">
-      <div
-        v-for="item in items"
-        :key="item"
-        class="m-auto inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
-      >
-        <a :href="item.url" :title="item.name" class="" target="_blank">
-          <div class="text-sm mb-6" style="color: #f8f8f8;">
-            {{ item.name }}
-          </div>
+<template>
+  <footer class="w-full bg-brand-footer border-t-4 border-brand-accent">
+    <div class="max-w-5xl mx-auto px-6 py-8 flex flex-col items-center gap-4">
+      <nav class="flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
+        <a
+          v-for="item in items"
+          :key="item.url"
+          :href="item.url"
+          :title="item.name"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-sm tracking-wide text-brand-offwhite transition hover:text-blue-300 hover:-translate-y-0.5 motion-reduce:transition-none motion-reduce:transform-none"
+        >
+          {{ item.name }}
         </a>
-      </div>
+      </nav>
+      <p class="text-xs text-gray-300">&copy; {{ year }} City of Sherman GIS Department</p>
     </div>
-  </div>
+  </footer>
 </template>
 
-<script>
-import { useStore } from 'vuex'
-import { computed, ref } from 'vue'
+<script setup>
+import { computed } from 'vue'
+import { getItems } from '../data/items.js'
 
-export default {
-  setup() {
-    const store = useStore();
-    const items = computed(() => store.getters.getItems('footer'))
-
-
-    return { items, store }
-  }
-}
-
-
+const items = computed(() => getItems('footer'))
+const year = new Date().getFullYear()
 </script>
-
-
-<style>
-
-
-</style>
