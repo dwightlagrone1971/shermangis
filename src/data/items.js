@@ -362,24 +362,6 @@ export const items = [
 		src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8a54bee160e94c709947404e1ea75e2f/data' 
 	},
 	/* Internal Page */
-	// { 
-	// 	type: 'internal', 
-	// 	name: 'Code Incidents (2024)', 
-	// 	url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=83d4528b6352402d9ce262c45a07e11a', 
-	// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/6b6acbc0d6ea4ab0aed0c1904b63ca13/data' 
-	// },
-	// { 
-	// 	type: 'internal', 
-	// 	name: 'Code Incidents (All)', 
-	// 	url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=2e9d062f4c6e4cac9ec10024ebc8eb7b', 
-	// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/ce806504650d479ea357396b70e8e1b2/data' 
-	// },
-	// { 
-	// 	type: 'internal', 
-	// 	name: 'Code Simple Map', 
-	// 	url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=97013d9eff694c059406229d9df88b37', 
-	// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/1b98e0e38dda4d448b29a669a2a7f614/data' 
-	// },
 	{ 
 		type: 'internal', 
 		name: 'Address Map', 
@@ -392,12 +374,6 @@ export const items = [
 		url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/9a005e56e03e46aca282179adac59671', 
 		src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/1b98e0e38dda4d448b29a669a2a7f614/data'  
 	},
-	// { 
-	// 	type: 'internal', 
-	// 	name: 'Flushing Locations', 
-	// 	url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=cd171035c62b4db98271bafaf78f5758', 
-	// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5ad2c7752fe24741970ea42a860814ae/data' 
-	// },
 	{ 
 		type: 'internal', 
 		name: 'Hydrant Maintenance', 
@@ -405,12 +381,6 @@ export const items = [
 		// src: "images/Hydrants.png" 
 		src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/18e187b03d1e4e97a2f9566318a89c8c/data' 
 	},
-	// { 
-	// 	type: 'internal', 
-	// 	name: 'Mowing Map', 
-	// 	url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/df7265d42f0f442797d421dc7816ae97', 
-	// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e4cd5a78b1934aa1b386dbccbac66344/data'
-	// },
 	{ 
 		type: 'internal', 
 		name: 'Storm Water Fees', 
@@ -422,15 +392,7 @@ export const items = [
 		name: 'Water, Sewer & Drainage Map', 
 		url: 'https://www.arcgis.com/apps/dashboards/489c3c21fef747feb65d9e0aab54acc1#',
 		src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
-
-		
 	},
-	// {
-	// 	type: 'internal',
-	// 	name: 'UB Accounts',
-	// 	url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=6ff28e8cc3fa4cd69d80b9077eec3f1c',
-	// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8f1c813391004107a02eb625241c99c0/data'
-	// },
 	/* Menu Page */
 	{ 
 		type: 'menuItems', 
@@ -511,12 +473,6 @@ export const items = [
 		url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/cf38bef2ed614d07bd278e806b84ab39/data', 
 		src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/6831194a3fea4f91b03702b9cbc136e7/data'  
 	},
-	//{ 
-	//	type: 'pdfMaps', 
-	//	name: 'Sherman Schools', 
-	//	url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/098b94114bec4031a3638978be32874e/data', 
-	//	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/60aeaf41c1714393b6fbab4aee3ebd72/data'  
-	//},
 	{ 
 		type: 'pdfMaps', 
 		name: 'Thoroughfares Map', 

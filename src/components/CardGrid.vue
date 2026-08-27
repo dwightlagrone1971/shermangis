@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white border-2 border-gray-100 mt-14">
+  <div class="bg-white border-2 border-gray-100">
     <div :class="wrapped ? 'min-h-screen' : ''">
       <div class="text-center m-auto w-10/12 my-10 lg:w-9/12 2xl:w-6/12">
         <h1 class="text-3xl md:text-4xl font-serif font-bold text-blue-900 mb-4">{{ heading }}</h1>
@@ -14,6 +14,7 @@
           :href="item.url"
           target="_blank"
           rel="noopener noreferrer"
+
           class="group block overflow-hidden border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg motion-reduce:transition-none motion-reduce:transform-none"
         >
           <div class="aspect-[4/3] w-full overflow-hidden bg-gray-100 border-4 border-white">

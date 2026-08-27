@@ -1,5 +1,5 @@
 <template>
-  <div app class="bg-[#f3f3eb] pb-1 border-2 border-gray-300 flex items-center justify-center font-poppins lg:min-h-24">
+  <div app class="bg-[#f3f3eb] pb-1 border-2 border-gray-300 flex items-center justify-center font-poppins lg:h-30">
     <div class="pb-2 my-4 mx-auto w-11/12 max-w-4xl flex flex-wrap justify-center gap-x-4 gap-y-6">
       <div
         v-on:click="scrollToElement"
@@ -14,7 +14,7 @@
             border-4 border-white text-white w-18 lg:w-18 lg:h-16 2xl:h-18 transition transform p-4 rounded hover:text-white transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" alt="" />
           </div>
           <div>
-            <div class="text-sm font-bold mb-4 mt-4">{{ item.name }}</div>
+            <div class="text-sm font-bold mb-4 mt-4 pb-10">{{ item.name }}</div>
           </div>
         </router-link>
       </div>
