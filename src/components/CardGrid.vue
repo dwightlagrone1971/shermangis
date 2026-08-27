@@ -14,7 +14,7 @@
           :href="item.url"
           target="_blank"
           rel="noopener noreferrer"
-          class="group block overflow-hidden border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg motion-reduce:transition-none motion-reduce:transform-none"
+          class="p-5 group block overflow-hidden border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg motion-reduce:transition-none motion-reduce:transform-none"
         >
           <div class="aspect-[4/3] w-full overflow-hidden bg-gray-100">
             <img
