@@ -22,7 +22,7 @@
               :src="item.src"
               :alt="item.name"
               loading="lazy"
-              class="h-full w-full object-cover"
+              class="border-8 border-white h-full w-full object-cover"
             />
           </div>
           <h2 class="p-3 text-center text-sm font-bold text-blue-700">{{ item.name }}</h2>

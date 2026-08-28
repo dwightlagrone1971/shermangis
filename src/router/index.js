@@ -22,9 +22,9 @@ const routes = [
     component: () => import('../views/External.vue')
   },
   {
-    path: '/downloads',
-    name: 'Download',
-    component: () => import('../views/Download.vue')
+    path: '/datasets',
+    name: 'Datasets',
+    component: () => import('../views/Datasets.vue')
   },
   {
     path: '/infographics',
