@@ -54,91 +54,91 @@ export const items = [
 		type: 'downloads', 
 		name: 'Addresses', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/3ed717bdd281426e9994b9d4ff1d8e1d_4/explore?location=33.617307%2C-96.619061%2C11", 
-		src: '/src/assets/datasets/addresses.png' 
+		src: '/datasets/addresses.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'Annexations', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/6e78e7f6bd0848e69b25933eb1e00b30_0/explore?location=33.619177%2C-96.633220%2C11.94", 
-		src: '/src/assets/datasets/annexations.png' 
+		src: '/datasets/annexations.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'Building Footprints', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/161dcd10f9864c6a88a4c09bbf38f1dc_0/explore?location=33.563740%2C-96.632260%2C11", 
-		src: '/src/assets/datasets/building.png' 
+		src: '/datasets/building.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'City Limits & ETJ', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/d02333cf02bc4cf98728f92a8899f0b1_0/explore?location=33.678870%2C-96.662752%2C10", 
-		src: '/src/assets/datasets/citylimits.png' 
+		src: '/datasets/citylimits.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'Control Monuments',
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/33f8223fb4164f3699e89e8a249410dc_9/explore?location=0.001696%2C-96.619955%2C0.00", 
-		src: '/src/assets/datasets/control.png' 
+		src: '/datasets/control.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'Council Districts', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/2f5e02cf74b04e98b3eff4048663447b_10/explore?location=33.619177%2C-96.633228%2C11.94", 
-		src: '/src/assets/datasets/council.png' 
+		src: '/datasets/council.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'Development Projects', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/bc6309414e124f2a87979db886ff78e4_0/explore?location=33.622729%2C-96.616768%2C12", 
-		src: '/src/assets/datasets/development.png' 
+		src: '/datasets/development.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'Future Landuse', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/864ba455145b4db493872497a8d645a7_18/explore?location=33.620037%2C-96.633152%2C11.88", 
-		src: '/src/assets/datasets/landuse.png' 
+		src: '/datasets/landuse.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'Parcels', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/9f7b57fe77dd4c8d8b9de4e6917c57d2_19/explore?location=0.001695%2C-96.633224%2C0.00", 
-		src: '/src/assets/datasets/parcels.png' 
+		src: '/datasets/parcels.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'Parks & Recreation', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/0d896e8dd1bf49ff9e6f2b94ef34c1d6_24/explore?location=33.643646%2C-96.621673%2C13.15", 
-		src: '/src/assets/datasets/parks.png' 
+		src: '/datasets/parks.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'Roads Centerlines', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/79ce8982b5804e069d9df2a49a0ea162_0/explore?location=33.613517%2C-96.625559%2C11", 
-		src: '/src/assets/datasets/roads.png' 
+		src: '/datasets/roads.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'Thoroughfares', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/aaff07c9524445ea958ec57b0431ac96_69/explore?location=33.609510%2C-96.633352%2C11.82", 
-		src: '/src/assets/datasets/thoroughfares.png' 
+		src: '/datasets/thoroughfares.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'Traffic Counts', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/bc592fd6fadf4dbaa12c21c0a983deb0_0/explore?location=33.629473%2C-96.612578%2C12.42", 
-		src: '/src/assets/datasets/traffic.png' 
+		src: '/datasets/traffic.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'Zip Codes', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/5cc8e7043e6e49af80808385c2f27dbd_43/explore?location=30.382542%2C-100.127720%2C6.00", 
-		src: '/src/assets/datasets/zip.png' 
+		src: '/datasets/zip.png' 
 	},
 	{ 
 		type: 'downloads', 
 		name: 'Zoning Districts', 
 		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/809f7d59844a434a9cefadb29d89cf3a_2/explore", 
-		src: '/src/assets/datasets/zoning.png' 
+		src: '/datasets/zoning.png' 
 	},
             /* External Page */
 	{ 
