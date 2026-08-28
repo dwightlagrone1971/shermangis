@@ -366,32 +366,32 @@ export const items = [
 		type: 'internal', 
 		name: 'Address Map', 
 		url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/f575843e8b1140e0ac69149ca266dc5f', 
-		src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5ad2c7752fe24741970ea42a860814ae/data', 
+		src: '/images/internal/address-map.png' 
 	},
 	{ 
 		type: 'internal', 
 		name: 'Ambulance Calls', 
 		url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/9a005e56e03e46aca282179adac59671', 
-		src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/1b98e0e38dda4d448b29a669a2a7f614/data'  
+		src: '/images/internal/ambulance-calls.png'  
 	},
 	{ 
 		type: 'internal', 
 		name: 'Hydrant Maintenance', 
 		url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/0156ab1a620d49a0b052814da3be563a',
-		src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/18e187b03d1e4e97a2f9566318a89c8c/data' 
+		src: '/images/internal/hydrant-maintenance.png'
 	},
 
 	{ 
 		type: 'internal', 
 		name: 'Storm Water Fees', 
 		url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/789607a5260b4fe5a0d4fe2ecef8c24b', 
-		src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8f1c813391004107a02eb625241c99c0/data',
+		src: '/images/internal/storm-water-fees.png',
 	},
 	{ 
 		type: 'internal', 
 		name: 'Water, Sewer & Drainage Map', 
 		url: 'https://www.arcgis.com/apps/dashboards/489c3c21fef747feb65d9e0aab54acc1#',
-		src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
+		src: '/images/internal/utility-map.png' 
 	},
 	/* Menu Page */
 	{ 
