@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-white">
-    <div class="text-center m-auto w-10/12 my-10 lg:w-9/12 2xl:w-6/12">
+    <div class="text-center m-auto w-10/12 py-16 lg:w-9/12 2xl:w-6/12">
       <h1 class="text-3xl md:text-4xl font-serif font-bold text-blue-900 mb-4">Infographics Page</h1>
       <p class="text-blue-900 text-lg">Are a visual representation of information or data. The infographics below use American Community Survey (ACS), Census, Esri forecasts, and third-party retail data.</p>
     </div>

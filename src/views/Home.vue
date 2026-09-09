@@ -3,7 +3,7 @@
     <div class="m-auto md:top-3 md:w-1/2 md:flex lg:mt-20">
       <div class="m-auto w-3/4 p-6 border-2 border-transparent">
         <div class="m-auto my-10">
-          <h1 class="text-blue-900 font-serif m-auto mt-12 mb-1 text-5xl font-bold">GIS Maps</h1>
+          <h1 class="text-blue-900 font-serif m-auto mb-1 text-5xl font-bold">GIS Maps</h1>
           <h1 class="text-blue-900 text-left m-auto mt-6 mb-1 text-lg 2xl:mt-6 2xl:mb-1 p-8">The City of Sherman began developing its Geographic Information Systems (GIS) technology in 2011. GIS and related-technologies help city staff manage new development and changes in our infrastructure and natural environment. Visitors may access city GIS data through Internet-based applications and traditional maps.</h1>
         </div>
         <div class="m-auto my-10">

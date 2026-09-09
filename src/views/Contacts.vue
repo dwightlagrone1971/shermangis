@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-16 w-screen pb-10 md:w-screen md:min-h-screen mt-14">
+  <div class="mb-16 w-screen pb-10 md:w-screen md:min-h-screen py-10">
     <div class="py-2 w-screen md:m-auto">
       <h1 class="m-auto text-blue-900 w-72 font-serif m-auto text-5xl font-bold py-10 2xl:py-10">Contact Page</h1>
       <div class="m-auto md:grid md:grid-cols-3 md:w-8/12">

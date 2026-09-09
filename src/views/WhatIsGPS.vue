@@ -1,6 +1,6 @@
 <template>
  <div class="border-2 border-gray-200 md:m-auto md:min-h-screen">
-  <div class="mt-12 mt-30">
+  <div class="py-16">
     <h1 class="text-2xl md:text-3xl font-serif font-bold text-blue-900">What is the Global Positional System (GPS)?</h1>
   </div>
   <div class="mt-12 m-auto md:-mt-2 md:grid md:grid-cols-5 md:w-8/12">

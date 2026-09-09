@@ -1,6 +1,6 @@
 <template>
-  <div class="m-auto h-fit p-auto pb-24 mb-24 mt-14">
-    <div class="pt-14 pb-10">
+  <div class="m-auto h-fit p-auto pb-24">
+    <div class="py-16">
       <h1 class="text-3xl font-serif font-bold text-blue-900">What is geographic information services (GIS)?</h1>
     </div>
     <div class="grid md:grid-cols-5 w-8/12 m-auto">
