@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white border-2 border-gray-100 mt-14">
+  <div class="bg-white border-2 border-gray-100 pt-6">
     <div :class="wrapped ? 'min-h-screen' : ''">
       <div class="text-center m-auto w-10/12 my-10 lg:w-9/12 2xl:w-6/12">
         <h1 class="text-3xl md:text-4xl font-serif font-bold text-blue-900 mb-4">{{ heading }}</h1>
