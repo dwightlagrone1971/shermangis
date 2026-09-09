@@ -132,11 +132,6 @@ const routes = [
     component: () => import('../views/infographics/KeyFacts.vue')
   },
   {
-    path: '/nonprofitcharitableprofile',
-    name: 'Non-Profit Charitable Profile',
-    component: () => import('../views/infographics/NonProfitCharitableProfile.vue')
-  },
-  {
     path: '/populationoverview',
     name: 'Population Overview',
     component: () => import('../views/infographics/PopulationOverview.vue')
