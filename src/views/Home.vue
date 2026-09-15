@@ -24,36 +24,16 @@ All street parking and along cross streets is available unless otherwise marked 
 Downtown Sherman has a combination of public and private parking lots. Look for lots that have 'Free Public Parking' signs near their entrance.</h1>
         </div>
         <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c" target="_blank" rel="noopener noreferrer" class="text-blue-900 font-serif my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Garbage Collection Map</a>
+          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/af44c4110ca24cc28ead1a6feac24a54#" target="_blank" rel="noopener noreferrer" class="text-blue-900 font-serif my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Parks & Recreation Map</a>
             <h1 class="text-blue-900 text-left m-auto mt-6 mb-1 text-lg 2xl:mt-2 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
-            href="mailto: jimmym@cityofsherman.com"
+            href="mailto: jeastwood@cityofsherman.com"
             class="text-xl font-semibold underline text-blue-900"
             target="_blank"
             rel="noopener noreferrer"
-            >Jimmy Mrozinski
+            >Justin Eastwood
           </a>
-          </span><br>The Garbage Collection Map allows the public to see whether or not they receive garbage collection service from the City and on what day pick-up occurs. Links to service provider phone numbers and garbage cart ordering information is provided.</h1>
+          </span><br>Sherman offers several parks that provide enjoyable outdoor experiences. We recognize that these areas can sometimes become busy. To accommodate your needs, we offer pavilions, fields, and indoor facilities available for rental, ensuring your event has a dedicated space. If you are interested in hosting your next gathering at one of our parks or indoor facilities, please click on the location below for more information about each site and to begin the reservation process.</h1>
         </div>
-        <!-- <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/7ef89fd885e04d8e82d4ff2195a94b94" target="_blank" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">City Projects</a>
-            <h1 class="text-red-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
-            href="mailto: NateS@cityofsherman.com"
-            class="text-xl font-semibold underline text-red-900"
-            target="_blank"
-            >Nate Strauch
-          </a>
-          </span><br>The City Projects site contains information for Capital Improvement Projects, Development Projects, and Planning & Zoning in one application.</h1>
-        </div>
-        <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/65fcbad2b4cb41cd94c5e33caca3232d" target="_blank" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Planned Developments</a>
-            <h1 class="text-red-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
-            href="mailto: Planning@cityofsherman.com"
-            class="text-xl font-semibold underline text-red-900"
-            target="_blank"
-            >Development Services
-          </a>
-          </span><br>The Planned Development Map allows users to see locations and data about new development in the City of Sherman.</h1>
-        </div>         -->
       </div>
       <div class="m-auto w-1/2 mt-14 md:mt-12 md:w-1/4 text-center">
         <div class="center-text m-auto bg-brand-dark pb-8 mb-10 p-2">
