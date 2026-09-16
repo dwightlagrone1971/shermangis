@@ -7,8 +7,7 @@
           <h1 class="text-blue-900 text-left m-auto mt-6 mb-1 text-lg 2xl:mt-6 2xl:mb-1 p-8">The City of Sherman began developing its Geographic Information Systems (GIS) technology in 2011. GIS and related-technologies help city staff manage new development and changes in our infrastructure and natural environment. Visitors may access city GIS data through Internet-based applications and traditional maps.</h1>
         </div>
         <div class="m-auto my-10">
-          <h1 class="text-blue-900 font-serif mb-1 text-3xl 2xl:mt-18 2xl:mb-1 font-bold italic">Public-Facing GIS "Featured" Applications</h1>
-          <h1 class="text-blue-900 text-left m-auto mt-6 mb-1 text-lg 2xl:mt-2 2xl:mb-1 p-8">The following is a list of public-facing GIS applications that the City of Sherman currently provides.</h1>
+          <h1 class="text-blue-900 font-serif pb-10 mb-1 text-3xl 2xl:mt-18 2xl:mb-1 font-bold italic">Public-Facing GIS "Featured" Applications</h1>
         </div>
         <div class="m-auto my-10">
           <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/c984e25f1f824e3ea31564ae1477a89e" target="_blank" rel="noopener noreferrer" class="text-blue-900 font-serif my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Downtown Parking</a>
