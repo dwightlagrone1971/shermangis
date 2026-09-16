@@ -30,7 +30,7 @@ Downtown Sherman has a combination of public and private parking lots. Look for 
             class="text-xl font-semibold underline text-blue-900"
             target="_blank"
             rel="noopener noreferrer"
-            >Justin Eastwood
+            >Justin 
           </a>
           </span><br>Sherman offers several parks that provide enjoyable outdoor experiences. We recognize that these areas can sometimes become busy. To accommodate your needs, we offer pavilions, fields, and indoor facilities available for rental, ensuring your event has a dedicated space. If you are interested in hosting your next gathering at one of our parks or indoor facilities, please click on the location below for more information about each site and to begin the reservation process.</h1>
         </div>

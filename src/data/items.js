@@ -383,11 +383,6 @@ export const items = [
 	},
 	{ 
 		type: 'infographics', 
-		name: 'Nonprofit Charitable Profile', 
-		to: '/nonprofitcharitableprofile' 
-	},
-	{ 
-		type: 'infographics', 
 		name: 'Population Overview', 
 		to: '/populationoverview' 
 	},
