@@ -192,7 +192,7 @@ export const items = [
 	{ 
 		type: 'external', 
 		name: 'Garbage Collection', 
-		url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c',
+		url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/fa4d3d5a6f3d473eb0b01aa064070457#',
 		src: '/images/external/garbage-collection.png' 
 	},			
 	{ 
