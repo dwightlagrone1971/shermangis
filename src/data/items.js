@@ -487,7 +487,7 @@ export const items = [
 	},
 	{ 
 		type: 'menuItems', 
-		name: 'About Page', 
+		name: 'About', 
 		to: '/about',
 		icon: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d03725b6652f40fc9c18a46160369f1f/data'
 	},			

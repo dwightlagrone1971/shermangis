@@ -10,7 +10,7 @@
           <h1 class="text-blue-900 font-serif pb-10 mb-1 text-3xl 2xl:mt-18 2xl:mb-1 font-bold italic">Public-Facing GIS "Featured" Applications</h1>
         </div>
         <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/c984e25f1f824e3ea31564ae1477a89e" target="_blank" rel="noopener noreferrer" class="text-[#42a1a9] font-serif my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Downtown Parking</a>
+          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/c984e25f1f824e3ea31564ae1477a89e" target="_blank" rel="noopener noreferrer" class="text-blue-900 font-serif my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Downtown Parking</a>
             <h1 class="text-blue-900 text-left m-auto mt-6 mb-1 text-lg 2xl:mt-2 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
             href="mailto: NateS@cityofsherman.com"
             class="text-xl font-semibold underline text-blue-900"
@@ -23,7 +23,7 @@ All street parking and along cross streets is available unless otherwise marked 
 Downtown Sherman has a combination of public and private parking lots. Look for lots that have 'Free Public Parking' signs near their entrance.</h1>
         </div>
         <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/af44c4110ca24cc28ead1a6feac24a54#" target="_blank" rel="noopener noreferrer" class="text-[#42a1a9] font-serif my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Parks & Recreation Map</a>
+          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/af44c4110ca24cc28ead1a6feac24a54#" target="_blank" rel="noopener noreferrer" class="text-blue-900 font-serif my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Parks & Recreation Map</a>
             <h1 class="text-blue-900 text-left m-auto mt-6 mb-1 text-lg 2xl:mt-2 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
             href="mailto: jeastwood@cityofsherman.com"
             class="text-xl font-semibold underline text-blue-900"
@@ -35,22 +35,22 @@ Downtown Sherman has a combination of public and private parking lots. Look for 
         </div>
       </div>
       <div class="m-auto w-1/2 mt-14 md:mt-12 md:w-1/4 text-center">
-        <div class="center-text m-auto bg-[#e7ecf0] pb-8 mb-10 p-2">
-          <h1 class="m-auto align-top font-serif text-2xl pb-4 pl-4 pr-4 text-black md:mt-4">Want to download GIS data?</h1>
-          <h1 class="pl-4 pr-4 text-black">Find the datasets powering our GIS maps by vising our open data portal.</h1>
-          <router-link to="/datasets" custom v-slot="{ navigate }">
-            <button @click="navigate" class="bg-[#307ab3] inline-block text-white underline p-4 mt-10 mx-2 rounded-md hover:font-bold">VIEW THE DATASETS</button>
+        <div class="center-text m-auto bg-brand-dark pb-8 mb-10 p-2">
+          <h1 class="m-auto align-top font-serif text-2xl pb-4 pl-4 pr-4 text-white md:mt-4">Want to download GIS data?</h1>
+          <h1 class="pl-4 pr-4 text-white">Find the datasets powering our GIS maps by vising our open data portal.</h1>
+          <router-link to="/downloads" custom v-slot="{ navigate }">
+            <button @click="navigate" class="text-white underline p-2 mt-10 mx-2 rounded-md hover:bg-gray-500">VIEW THE DATASETS</button>
           </router-link>
         </div>
-        <div class="m-auto bg-[#e7ecf0] pb-8 mb-10 p-2">
-          <h1 class="m-auto align-top font-serif text-2xl pb-4 pl-4 pr-4 text-black md:mt-4">Your Place</h1>
-          <h1 class="pt-4 pl-4 pr-4 text-black">Your Place provides a property information report that includes zoning information, polling place locations, police beats, legislative districts and much mor</h1>
-          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/468b0ee6e8a6491bb95fdfe49d51f8b0#" target="_blank" rel="noopener noreferrer" class="bg-[#307ab3] inline-block text-white underline p-2  mt-10 mx-2 rounded-md hover:font-bold">VISIT "YOUR PLACE" NOW</a>
+        <div class="m-auto bg-brand-olive pb-8 mb-10 p-2">
+          <h1 class="m-auto align-top font-serif text-2xl pb-4 pl-4 pr-4 text-white md:mt-4">Your Place</h1>
+          <h1 class="pt-4 pl-4 pr-4 text-white">Your Place provides a property information report that includes zoning information, polling place locations, police beats, legislative districts and much mor</h1>
+          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/468b0ee6e8a6491bb95fdfe49d51f8b0#" target="_blank" rel="noopener noreferrer" class="inline-block text-white underline p-2 font-bold mt-10 mx-2 rounded-md hover:bg-green-900">VISIT "YOUR PLACE" NOW</a>
         </div>
-        <div class="m-auto bg-gray-300 pb-8 mb-10 p-2">
-          <h1 class="m-auto align-top font-serif text-2xl p-4 text-black">More Public Maps</h1>
-          <h1 class="p-4 text-black pb-12">Find more public maps in our open data portal.</h1>
-          <router-link class="bg-[#307ab3] inline-block text-white underline lg:w-48 py-4 mx-4 rounded-md hover:font-bold" to="/externals">MORE MAPS</router-link>
+        <div class="m-auto border-2 bg-brand-primary pb-8 mb-10 p-2">
+          <h1 class="m-auto align-top font-serif text-2xl p-4 text-white">More Public Maps</h1>
+          <h1 class="p-4 text-white pb-12">Find more public maps in our open data portal.</h1>
+          <router-link class="text-white underline p-2 mx-4 rounded-md hover:bg-blue-500" to="/externals">MORE MAPS</router-link>
         </div>
       </div>
     </div>
