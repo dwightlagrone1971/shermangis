@@ -10,8 +10,8 @@
           <h1 class="text-blue-900 font-serif pb-10 mb-1 text-3xl 2xl:mt-18 2xl:mb-1 font-bold italic">Public-Facing GIS "Featured" Applications</h1>
         </div>
         <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/c984e25f1f824e3ea31564ae1477a89e" target="_blank" rel="noopener noreferrer" class="text-[#42a1a9] font-serif my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Downtown Parking</a>
-            <h1 class="text-blue-900 text-left m-auto mt-6 mb-1 text-lg 2xl:mt-2 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
+          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/c984e25f1f824e3ea31564ae1477a89e" target="_blank" rel="noopener noreferrer" class="text-[#42a1a9] font-serif my-10 text-3xl underline tracking-widest" style="text-underline-offset: 14px;">Downtown Parking</a>
+            <h1 class="text-blue-900 text-left m-auto mt-6 mb-1 text-lg 2xl:mt-4 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
             href="mailto: NateS@cityofsherman.com"
             class="text-xl font-semibold underline text-blue-900"
             target="_blank"
@@ -23,8 +23,8 @@ All street parking and along cross streets is available unless otherwise marked 
 Downtown Sherman has a combination of public and private parking lots. Look for lots that have 'Free Public Parking' signs near their entrance.</h1>
         </div>
         <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/af44c4110ca24cc28ead1a6feac24a54#" target="_blank" rel="noopener noreferrer" class="text-[#42a1a9] font-serif my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Parks & Recreation Map</a>
-            <h1 class="text-blue-900 text-left m-auto mt-6 mb-1 text-lg 2xl:mt-2 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
+          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/af44c4110ca24cc28ead1a6feac24a54#" target="_blank" rel="noopener noreferrer" class="text-[#42a1a9] font-serif my-10 text-3xl underline tracking-widest" style="text-underline-offset: 14px;">Parks & Recreation Map</a>
+            <h1 class="text-blue-900 text-left m-auto mt-6 mb-1 text-lg 2xl:mt-4 2xl:mb-2 p-8"><span class="font-bold">Contact:   <a
             href="mailto: jeastwood@cityofsherman.com"
             class="text-xl font-semibold underline text-blue-900"
             target="_blank"
