@@ -435,7 +435,12 @@ export const items = [
 		url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/0156ab1a620d49a0b052814da3be563a',
 		src: '/images/internal/Hydrant-Maintenance.png'
 	},
-
+	{ 
+		type: 'internal', 
+		name: 'City Mowing Map', 
+		url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/df7265d42f0f442797d421dc7816ae97#',
+		src: '/images/internal/Mowing.png'
+	},
 	{ 
 		type: 'internal', 
 		name: 'Storm Water Fees', 
