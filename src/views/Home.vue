@@ -44,7 +44,7 @@ Downtown Sherman has a combination of public and private parking lots. Look for 
         </div>
         <div class="m-auto bg-[#e7ecf0] pb-8 mb-10 p-2">
           <h1 class="m-auto align-top font-serif text-2xl pb-4 pl-4 pr-4 text-black md:mt-4">Your Place</h1>
-          <h1 class="pt-4 pl-4 pr-4 text-black">Your Place provides a property information report that includes zoning information, council districts, trash days, and much mor</h1>
+          <h1 class="pt-4 pl-4 pr-4 text-black">Your Place provides a property information report that includes zoning information, council districts, trash days, and much more</h1>
           <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/468b0ee6e8a6491bb95fdfe49d51f8b0#" target="_blank" rel="noopener noreferrer" class="bg-[#307ab3] inline-block text-white underline p-2  mt-10 mx-2 rounded-md hover:font-bold">VISIT "YOUR PLACE" NOW</a>
         </div>
         <div class="m-auto bg-[#e7ecf0] pb-8 mb-10 p-2">
