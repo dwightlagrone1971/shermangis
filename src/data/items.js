@@ -303,18 +303,29 @@ export const items = [
 	/* Infographics Page */
 	{ 
 		type: 'infographics', 
-		name: '2020 Census Summary', 
-		to: '/census2020' 
+		name: '2020 Census Summary',
+		src: '/images/infographics/2020-Census-Summary.png',
+		to: '/census2020',
+		desc: 'The 2020 Census data includes information on population and housing.'
 	},
 	{ 
 		type: 'infographics', 
 		name: 'At Risk Population', 
-		to: '/atriskpopulation' 
-	},                                                               
+		to: '/atriskpopulation',
+		desc: 'Demographic, social, and economic data to help communities target public health, housing, and emergency resources.' 
+	}, 
+	{ 
+		type: 'infographics1', 
+		name: 'Business Key Facts', 
+		to: '/businesskeyfacts',
+		desc: 'Explore essential commercial metrics, local business distributions, and economic indicators.' 
+	}, 	                                                              
 	{ 
 		type: 'infographics', 
 		name: 'Community Change Snapshot', 
-		to: '/communitychangesnapshot'
+		to: '/communitychangesnapshot',
+		desc: 'A snapshot of community changes over time, highlighting key metrics and trends.'
+		
 	},
 	{ 
 		type: 'infographics', 
@@ -342,9 +353,10 @@ export const items = [
 		to: '/emergencyinformation' 
 	},
 	{ 
-		type: 'infographics', 
+		type: 'infographics1', 
 		name: 'Employment Overview', 
-		to: '/employmentoverview'  
+		to: '/employmentoverview',
+		desc: 'Employment overview summarizes key labor market data, job trends, and economic statistics.'  
 	},
 	{ 
 		type: 'infographics', 
@@ -364,12 +376,14 @@ export const items = [
 	{ 
 		type: 'infographics', 
 		name: 'Housing Market Characteristics', 
-		to: '/housingmarketcharacteristics' 
+		to: '/housingmarketcharacteristics',
+		desc: 'Review current real estate trends, value forcast, and inventory summaries for 2006' 
 	},
 	{ 
-		type: 'infographics', 
+		type: 'infographics1', 
 		name: 'Housing Market Summary', 
-		to: '/housingmarketsummary'
+		to: '/housingmarketsummary',
+		desc: 'Review current real estate trends, value forcast, and inventory summaries for 2006' 
 	},
 	{ 
 		type: 'infographics', 
@@ -377,14 +391,16 @@ export const items = [
 		to: '/k12educationoverview' 
 	},
 	{ 
-		type: 'infographics', 
+		type: 'infographics1', 
 		name: 'Key Facts', 
-		to: '/keyfacts'
+		to: '/keyfacts',
+		desc: 'A comprehensive overview of high-level statistics and essential benchmark data.'
 	},
 	{ 
-		type: 'infographics', 
+		type: 'infographics1', 
 		name: 'Population Overview', 
-		to: '/populationoverview' 
+		to: '/populationoverview',
+		desc: 'Population overview analyzes demographic breakdowns, growth trends, and household structures.'
 	},
 	{ 
 		type: 'infographics', 
@@ -412,9 +428,10 @@ export const items = [
 		to: '/spendingbehavior'
 	},
 	{ 
-		type: 'infographics', 
+		type: 'infographics1', 
 		name: 'Tapestry profile', 
-		to: '/tapestryprofile'
+		to: '/tapestryprofile',
+		desc: 'Discover lifestyle segmentation data, consumer behaviors, and neighborhood characteristics.'
 	},
 	/* Internal Page */
 	{ 

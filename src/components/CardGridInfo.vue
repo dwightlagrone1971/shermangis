@@ -10,21 +10,18 @@
       <div class=" mx-auto mb-10 w-full max-w-7xl grid gap-x-6 gap-y-10 px-6 pb-4 grid-cols-[repeat(auto-fill,minmax(220px,1fr))]">
         <a
           v-for="item in items"
-          :key="item.url"
-          :href="item.url"
+          :key="item.to"
+          :to="item.to"
           target="_blank"
           rel="noopener noreferrer"
+
           class="group block overflow-hidden border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg motion-reduce:transition-none motion-reduce:transform-none"
         >
-          <div class="aspect-[4/3] w-full overflow-hidden bg-gray-100 border-4 border-white">
-            <img
-              :src="item.src"
-              :alt="item.name"
-              loading="lazy"
-              class="border-8 border-white h-full w-full object-cover"
-            />
+          <div class="aspect-[4/3] w-full overflow-hidden bg-white border-8 border-white">
+            <h2 class="text-left p-3 text-center text-sm font-bold">{{ item.name }}</h2>
+            <h2 class="text-left p-3 text-center text-sm">{{ item.desc }}</h2>            
           </div>
-          <h2 class="p-3 text-center text-sm font-bold text-blue-700">{{ item.name }}</h2>
+          <h2 class="text-left p-3 text-center text-sm font-bold text-blue-800">View Report</h2>
         </a>
       </div>
     </div>

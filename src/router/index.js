@@ -62,6 +62,11 @@ const routes = [
     component: () => import('../views/infographics/AtRiskPopulation.vue')
   },
   {
+    path: '/businesskeyfacts',
+    name: 'Business Key Facts',
+    component: () => import('../views/infographics/BusinessKeyFacts.vue')
+  },
+  {
     path: '/communitychangesnapshot',
     name: 'Community Change Snapshot',
     component: () => import('../views/infographics/CommunityChangeSnapshot.vue')

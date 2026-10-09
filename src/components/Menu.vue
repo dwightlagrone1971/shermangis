@@ -6,7 +6,6 @@
         v-for="item in items"
         :key="item.to"
         class=""
-
       > 
         <router-link :to="item.to">    
           <div>
