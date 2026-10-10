@@ -1,5 +1,5 @@
 <template>
-  <div class="border-2 border-gray-200 bg-white">
+  <div class="border-2 border-b-0 border-gray-200 bg-white">
     <div class="m-auto px-6 md:px-0 md:top-3 md:w-1/2 md:flex lg:mt-20">
       <div class="m-auto w-full py-6 md:w-3/4 md:p-6 border-2 border-transparent">
         <div class="m-auto my-10">
@@ -50,9 +50,9 @@ Downtown Sherman has a combination of public and private parking lots. Look for 
         </div>
       </div>
     </div>
-    <div class="relative w-full overflow-hidden h-24 md:relative md:w-full md:overflow-hidden md:h-48 lg:w-full">
-      <div class="w-screen">
-        <img src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/02e72b43fd964d76a38a59d15d7ad4b3/data" alt="city base map">
+    <div class="relative w-full overflow-hidden h-24 md:h-48">
+      <div class="h-full w-full">
+        <img class="h-full w-full object-cover" src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/02e72b43fd964d76a38a59d15d7ad4b3/data" alt="city base map">
       </div>
       <div class="absolute inset-y-0 right-0 w-3/4 bg-gradient-to-l from-red-900 to-transparent md:pl-96 md:w-3/4">
         <h1 class="text-sm text-black font-serif pt-2 pl-32 md:absolute md:w-full md:mt-8 md:text-4xl lg:pr-60">GIS Department</h1>
