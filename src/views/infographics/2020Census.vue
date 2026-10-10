@@ -4,7 +4,7 @@
           <router-link class="bg-blue-900 text-white p-2 md:mt-20 md:py-2 md:px-4 md:rounded" to="/infographics">Back to Infographics Page</router-link>
     </div>
   </div>
-  <div class="py-16 px-54 shadow-2xl bg-black ">
+  <div class="py-16 px-4 md:px-16 lg:px-54 shadow-2xl bg-black ">
     <VuePdfEmbed annotation-layer text-layer :source="'images/infographics/2020-Census-Summary.pdf'" />
   </div>  
 </template>
