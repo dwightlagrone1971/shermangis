@@ -26,7 +26,7 @@ export const items = [
 		title:"GIS Manager", 
 		employer:'City of Sherman', 
 		address:'405 N Rusk St', 
-		city:'Sherman', state: '75090', 
+		city:'Sherman', state:'Tx', zip:'75090', 
 		phone:'(903) 892-7310', 
 		email:'mailto:dwightl@cityofsherman.com' 
 	},
