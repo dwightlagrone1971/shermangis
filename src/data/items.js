@@ -286,19 +286,19 @@ export const items = [
 		type: 'footer', 
 		name: "G-CAD", 
 		url: "https://www.graysonappraisal.org/", 
-		alt:"Grayson County" 
+		alt:"Grayson Central Appraisal District" 
 	},
 	{ 
 		type: 'footer', 
 		name: "TCOG", 
 		url: "https://www.tcog.com/", 
-		alt:"TCOG" 
+		alt:"Texoma Council of Governments" 
 	},
 	{ 
 		type: 'footer', 
 		name: "ESRI", 
 		url: "https://www.esri.com/en-us/home", 
-		alt:"ESRI" 
+		alt:"Esri" 
 	},
 	/* Infographics Page */
 	{ 

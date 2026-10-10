@@ -16,17 +16,23 @@
         </router-link>
       </div>
     </div>
-    <div><h1 class="text-3xl md:text-2xl font-serif font-bold text-red-900 mb-10 mt-5">Other Reports</h1></div>
-    <div class="text-red-900 m-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 px-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
-      <div
-        v-for="item in items1"
-        :key="item.to"
-        class="shadow-xl border-red-800 border-t-2 bg-white md:text-sm transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
-        <router-link class="block h-full" :to="item.to">
-          <h1 class="text-md p-3 text-black">{{ item.name }}</h1>
+    <div class="mx-auto mt-10 mb-16 max-w-5xl px-6">
+      <div class="border-t border-gray-200 pt-10 mb-6 text-center sm:text-left">
+        <h2 class="font-serif text-2xl font-bold text-blue-900">Other Reports</h2>
+        <p class="mt-1 text-sm text-gray-500">Additional demographic, housing, and market profiles for Sherman.</p>
+      </div>
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <router-link
+          v-for="item in items1"
+          :key="item.to"
+          :to="item.to"
+          class="group flex items-center gap-3 rounded-xl border border-gray-200 bg-white px-4 py-3 shadow-sm transition hover:-translate-y-0.5 hover:border-brand-accent hover:shadow-md motion-reduce:transition-none motion-reduce:transform-none"
+        >
+          <span class="flex-1 text-sm font-medium text-gray-800 group-hover:text-brand-primary">{{ item.name }}</span>
+          <span aria-hidden="true" class="text-gray-400 transition group-hover:translate-x-1 group-hover:text-brand-accent motion-reduce:transition-none motion-reduce:transform-none">&rarr;</span>
         </router-link>
       </div>
-    </div>    
+    </div>
   </div>
 </template>
 
