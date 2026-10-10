@@ -1,5 +1,14 @@
 <template>
  <div class="border-2 border-gray-200 md:m-auto md:min-h-screen">
+    <div class="mx-auto max-w-6xl px-6 pt-8 text-left">
+      <router-link
+        to="/about"
+        class="group inline-flex items-center gap-2 text-sm font-medium text-brand-accent transition hover:text-brand-primary"
+      >
+        <span aria-hidden="true" class="transition group-hover:-translate-x-1 motion-reduce:transition-none motion-reduce:transform-none">&larr;</span>
+        Back to About
+      </router-link>
+    </div>
   <div class="py-16">
     <h1 class="text-2xl md:text-3xl font-serif font-bold text-blue-900">What is the Global Positional System (GPS)?</h1>
   </div>
@@ -12,9 +21,6 @@
       <span class="font-bold text-xl">GPS (Global Positional System)</span><p class="text-sm">is a passive, all-weather, 24-hour global navigation satellite system developed for and operated by the U.S. Department of Defense. The system is comprised of 24+ satellites, one master control station located in Colorado Springs, Colorado, and hundreds of government and independent local reference stations. The local reference stations are used for post-processing data collected in the field to obtain maximum accuracy.
 The GIS department gathers GPS positions for new development to ensure spatial accuracy when recording city assets. City assets include fire hydrants, water lines and associated valves, storm lines, sewer lines and land records, such as, parcel and subdivision boundaries. Spatially accurate data enable staff to locate assets in the future, especially if they become buried.</p>
     </div>
-      <div class="mt-12 pl-20">
-        <router-link class="bg-blue-900 text-white p-2 md:mt-10 md:py-2 md:px-4 md:rounded md:ml-36" to="/about">Back to About Page</router-link>
-      </div>    
   </div>
   <div class="h-60 text-blue-500 md:col-span-1 mt-12">
     <h6 class="font-semibold">External Links:</h6>

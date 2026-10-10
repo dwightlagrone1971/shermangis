@@ -1,15 +1,15 @@
 <template>
-  <CardGrid type="downloads" heading="GIS Data">
+  <CardGrid type="downloads" heading="GIS Data" need-help>
     <template #blurb>
-      <h1 class="font-serif text-black text-md mb-4">Use raw datasets in themed dashboards to download information for your websites, applications or research. Search, filter and zoom in to quickly and easily select only the datasets that interest you. Can't find what you are looking for?</h1>   
-      <a href="mailto: dwightl@cityofsherman.com" class="text-xl text-blue-500 font-semibold underline text-red-900"
-          target="_blank" rel="noopener noreferrer">
-          Contact us!
-      </a>
+      <h1 class="font-serif text-black text-md mb-4">Use raw datasets in themed dashboards to download information for your websites, applications or research. Search, filter and zoom in to quickly and easily select only the datasets that interest you.</h1>
+    </template>
+    <template #help>
+      <NeedHelp lead="Not able to find what you need?" label="Contact us" />
     </template>
   </CardGrid>
 </template>
 
 <script setup>
 import CardGrid from '../components/CardGrid.vue'
+import NeedHelp from '../components/NeedHelp.vue'
 </script>

@@ -6,6 +6,9 @@
         <p class="text-blue-900 text-lg">
           <slot name="blurb" />
         </p>
+        <slot v-if="needHelp" name="help">
+          <NeedHelp />
+        </slot>
       </div>
       <div class=" mx-auto mb-10 w-full max-w-7xl grid gap-x-6 gap-y-10 px-6 pb-4 grid-cols-[repeat(auto-fill,minmax(220px,1fr))]">
         <a
@@ -34,6 +37,7 @@
 <script setup>
 import { computed } from 'vue'
 import { getItems } from '../data/items.js'
+import NeedHelp from './NeedHelp.vue'
 
 const props = defineProps({
   // store `type` to pull cards from, e.g. 'downloads', 'external'
@@ -50,6 +54,11 @@ const props = defineProps({
   // height even with few cards; min- so long lists still push the
   // footer down instead of the footer overlapping content
   wrapped: {
+    type: Boolean,
+    default: false
+  },
+  // show the "Need help?" contact line under the blurb
+  needHelp: {
     type: Boolean,
     default: false
   }

@@ -28,7 +28,8 @@ export const items = [
 		address:'405 N Rusk St', 
 		city:'Sherman', state:'Tx', zip:'75090', 
 		phone:'(903) 892-7310', 
-		email:'mailto:dwightl@cityofsherman.com' 
+		email:'mailto:dwightl@cityofsherman.com',
+		helpsWith: ['All other GIS inquiries']
 	},
 	{ 
 		type: 'contacts', 
@@ -38,7 +39,8 @@ export const items = [
 		address:'220 W Mulberry St', 
 		city:'Sherman', state:'Tx', 
 		zip:'75090', phone:'(903) 892-7621', 
-		email:'mailto:jerryp@cityofsherman.com' 
+		email:'mailto:jerryp@cityofsherman.com',
+		helpsWith: ['Water', 'Sewer', 'Drainage']
 	},
 	{ 
 		type: 'contacts', 
@@ -47,7 +49,8 @@ export const items = [
 		employer:'City of Sherman', address:'100 S Rusk St', 
 		city:'Sherman', state:'Tx', zip:'75090', 
 		phone:'(903) 892-7195', 
-		email:'mailto:codyf@cityofsherman.com' 
+		email:'mailto:codyf@cityofsherman.com',
+		helpsWith: ['Streets', 'Mowing']
 	},
 	/* Downloads */
 	{ 

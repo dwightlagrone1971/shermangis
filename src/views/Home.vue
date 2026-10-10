@@ -39,18 +39,18 @@ Downtown Sherman has a combination of public and private parking lots. Look for 
           <h1 class="m-auto align-top font-serif text-2xl pb-4 pl-4 pr-4 text-black md:mt-4">Want to download GIS data?</h1>
           <h1 class="pl-4 pr-4 text-black">Find the datasets powering our GIS maps by vising our open data portal.</h1>
           <router-link to="/datasets" custom v-slot="{ navigate }">
-            <button @click="navigate" class="bg-[#307ab3] inline-block text-white underline p-4 mt-10 mx-2 rounded-md hover:font-bold">VIEW THE DATASETS</button>
+            <button @click="navigate" class="group mt-8 inline-flex items-center gap-2 rounded-lg bg-brand-accent px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-primary hover:shadow-md">View the Datasets <span aria-hidden="true" class="transition group-hover:translate-x-1 motion-reduce:transition-none motion-reduce:transform-none">&rarr;</span></button>
           </router-link>
         </div>
         <div class="m-auto bg-[#e7ecf0] pb-8 mb-10 p-2">
           <h1 class="m-auto align-top font-serif text-2xl pb-4 pl-4 pr-4 text-black md:mt-4">Your Place</h1>
           <h1 class="pt-4 pl-4 pr-4 text-black">Your Place provides a property information report that includes zoning information, council districts, trash days, and much more</h1>
-          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/468b0ee6e8a6491bb95fdfe49d51f8b0#" target="_blank" rel="noopener noreferrer" class="bg-[#307ab3] inline-block text-white underline p-2  mt-10 mx-2 rounded-md hover:font-bold">VISIT "YOUR PLACE" NOW</a>
+          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/468b0ee6e8a6491bb95fdfe49d51f8b0#" target="_blank" rel="noopener noreferrer" class="group mt-8 inline-flex items-center gap-2 rounded-lg bg-brand-accent px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-primary hover:shadow-md">Visit Your Place <span aria-hidden="true">&#8599;</span></a>
         </div>
         <div class="m-auto bg-[#e7ecf0] pb-8 mb-10 p-2">
           <h1 class="m-auto align-top font-serif text-2xl p-4 text-black">More Public Maps</h1>
           <h1 class="p-4 text-black pb-12">Find more public maps in our open data portal.</h1>
-          <router-link class="bg-[#307ab3] inline-block text-white underline lg:w-48 py-4 mx-4 rounded-md hover:font-bold" to="/externals">MORE MAPS</router-link>
+          <router-link class="group mt-8 inline-flex items-center gap-2 rounded-lg bg-brand-accent px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-primary hover:shadow-md" to="/externals">More Maps <span aria-hidden="true" class="transition group-hover:translate-x-1 motion-reduce:transition-none motion-reduce:transform-none">&rarr;</span></router-link>
         </div>
       </div>
     </div>
