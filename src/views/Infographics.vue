@@ -29,7 +29,6 @@
           class="group flex items-center gap-3 rounded-xl border border-gray-200 bg-white px-4 py-3 shadow-sm transition hover:-translate-y-0.5 hover:border-brand-accent hover:shadow-md motion-reduce:transition-none motion-reduce:transform-none"
         >
           <span class="flex-1 text-sm font-medium text-gray-800 group-hover:text-brand-primary">{{ item.name }}</span>
-          <span aria-hidden="true" class="text-gray-400 transition group-hover:translate-x-1 group-hover:text-brand-accent motion-reduce:transition-none motion-reduce:transform-none">&rarr;</span>
         </router-link>
       </div>
     </div>

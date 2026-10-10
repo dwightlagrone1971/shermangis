@@ -9,7 +9,10 @@
         Back to About
       </router-link>
 
-      <h1 class="font-serif text-4xl md:text-5xl font-bold text-blue-900 text-center py-10">Contact Page</h1>
+      <div class="text-center py-10">
+        <h1 class="font-serif text-4xl md:text-5xl font-bold text-blue-900">Contact Page</h1>
+        <p class="mt-3 text-gray-600">Find the person who covers your topic below.</p>
+      </div>
 
       <div class="grid grid-cols-1 gap-8 justify-items-center md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
         <div
@@ -19,6 +22,16 @@
         >
           <h2 class="mb-2 text-black text-2xl font-semibold">{{ contact.name }}</h2>
           <h2 class="text-xl text-black pb-4">{{ contact.title }}</h2>
+          <div v-if="contact.helpsWith" class="pb-5 text-center">
+            <p class="text-xs font-semibold uppercase tracking-widest text-gray-500">Can help with</p>
+            <ul class="mt-2 flex flex-wrap justify-center gap-2">
+              <li
+                v-for="topic in contact.helpsWith"
+                :key="topic"
+                class="rounded-full bg-blue-50 px-3 py-1 text-sm font-medium text-brand-accent"
+              >{{ topic }}</li>
+            </ul>
+          </div>
           <h2 class="text-xl text-black">{{ contact.address }}</h2>
           <h2 class="text-xl text-black pb-4">{{ contact.city }}, {{ contact.state }} {{ contact.zip }}</h2>
           <div class="pb-4">
