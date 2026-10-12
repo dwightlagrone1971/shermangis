@@ -38,4 +38,4 @@ src/
 
 All page content — links, thumbnail images, contact info, nav labels — lives in `src/data/items.js` as a single array of objects tagged with a `type`. To add, edit, or remove a dashboard link, dataset, contact, or menu item, edit that file; there's nothing to touch in the view components themselves for a content-only change.
 
-See [`CLAUDE.md`](./CLAUDE.md) for a deeper architecture walkthrough (how `CardGrid.vue` works, the data shape per content `type`, routing conventions, and known quirks worth knowing before making changes).
+See [`ARCHITECTURE.md`](./ARCHITECTURE.md) for the full architecture: a diagram, a description of every component and view, the data schema per content `type`, the routing table, and the styling system. [`CLAUDE.md`](./CLAUDE.md) covers conventions and gotchas worth knowing before making a change.
