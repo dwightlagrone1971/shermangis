@@ -29,7 +29,7 @@ export const items = [
 		city:'Sherman', state:'Tx', zip:'75090', 
 		phone:'(903) 892-7310', 
 		email:'mailto:dwightl@cityofsherman.com',
-		helpsWith: ['All other GIS inquiries']
+		helpsWith: ['9-1-1 Addressing', 'All other GIS inquiries']
 	},
 	{ 
 		type: 'contacts', 
@@ -40,7 +40,7 @@ export const items = [
 		city:'Sherman', state:'Tx', 
 		zip:'75090', phone:'(903) 892-7621', 
 		email:'mailto:jerryp@cityofsherman.com',
-		helpsWith: ['Water', 'Sewer', 'Drainage']
+		helpsWith: ['Control Monuments','Drainage', 'Sewer', 'Water']
 	},
 	{ 
 		type: 'contacts', 
