@@ -31,7 +31,7 @@ export const items = [
 		name:'Jerry Pace', 
 		title:"GIS Technician - Engineering", 
 		employer:'City of Sherman', 
-		address:'220 W Mulberry St', 
+		address:'317 S Travis St', 
 		city:'Sherman', state:'Tx', 
 		zip:'75090', phone:'(903) 892-7621', 
 		email:'mailto:jerryp@cityofsherman.com',
