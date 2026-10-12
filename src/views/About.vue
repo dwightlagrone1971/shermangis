@@ -2,9 +2,9 @@
   <div class="font-serif min-h-screen bg-white border-2 border-gray-100">
     <div class="text-center m-auto w-10/12 p-16 lg:w-9/12 2xl:w-6/12">
       <h1 class="text-3xl md:text-4xl font-serif font-bold text-blue-900 mb-6">About Page</h1>
-      <p class="text-black text-md">Click buttons below for more information about the City of Sherman's GIS program and for information about GIS staff.</p>
+      <p class="text-black text-md">Click buttons below for more information about the GIS program.</p>
     </div>
-    <div class="mx-auto mb-16 grid max-w-4xl grid-cols-1 gap-4 px-6 sm:grid-cols-3">
+    <div class="mx-auto mb-16 grid max-w-xl grid-cols-1 gap-4 px-6 sm:grid-cols-2">
       <router-link
         v-for="item in items"
         :key="item.to"

@@ -14,12 +14,7 @@ export const items = [
 		name: 'What is GPS?', 
 		to: '/whatisgps' 
 	},
-	{ 
-		type: 'about', 
-		name: 'Contact US', 
-		to: '/contacts' 
-	},
-            /* Contacts Page*/
+	  /* Contacts Page*/
 	{ 
 		type: 'contacts', 
 		name:'Dwight LaGrone', 
@@ -512,10 +507,17 @@ export const items = [
 	},
 	{ 
 		type: 'menuItems', 
+		name: 'Contact US', 
+		to: '/contacts' 
+	},
+	{ 
+		type: 'menuItems', 
 		name: 'About', 
 		to: '/about',
 		icon: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d03725b6652f40fc9c18a46160369f1f/data'
-	},			
+	},	
+	
+          		
 	/* PDF Maps Page */
 	{ 
 		type: 'pdfMaps', 
