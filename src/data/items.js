@@ -374,14 +374,13 @@ export const items = [
 	{ 
 		type: 'infographics', 
 		name: 'Housing Market Characteristics', 
-		to: '/housingmarketcharacteristics',
-		desc: 'Review current real estate trends, value forcast, and inventory summaries for 2006.' 
+		to: '/housingmarketcharacteristics' 
 	},
 	{ 
 		type: 'infographics1', 
 		name: 'Housing Market Summary', 
 		to: '/housingmarketsummary',
-		desc: 'Review current real estate trends, value forcast, and inventory summaries for 2006' 
+		desc: 'Review current real estate trends, value forcast, and inventory summaries for 2006.' 
 	},
 	{ 
 		type: 'infographics', 
