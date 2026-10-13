@@ -1,17 +1,9 @@
 <template>
-  <div class="md:min-h-screen py-10 mb-16">
+  <div class="md:min-h-screen py-4 mb-16">
     <div class="mx-auto max-w-6xl px-6">
-      <router-link
-        to="/about"
-        class="group inline-flex items-center gap-2 text-sm font-medium text-brand-accent transition hover:text-brand-primary"
-      >
-        <span aria-hidden="true" class="transition group-hover:-translate-x-1 motion-reduce:transition-none motion-reduce:transform-none">&larr;</span>
-        Back to About
-      </router-link>
-
       <div class="text-center py-10">
-        <h1 class="font-serif text-4xl md:text-5xl font-bold text-blue-900">Contact Page</h1>
-        <p class="mt-3 text-gray-600">Find the person who covers your topic below.</p>
+        <h1 class="font-serif text-3xl md:text-4xl font-bold text-blue-900">Contact Page</h1>
+        <p class="mt-3 mb-4 text-gray-600">Find the person who covers your topic below.</p>
       </div>
 
       <div class="grid grid-cols-1 gap-8 justify-items-center md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
