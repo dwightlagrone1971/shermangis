@@ -29,7 +29,7 @@ export const items = [
 	{ 
 		type: 'contacts', 
 		name:'Jerry Pace', 
-		title:"GIS Technician - Engineering", 
+		title:"GIS Technician II - Engineering", 
 		employer:'City of Sherman', 
 		address:'317 S Travis St', 
 		city:'Sherman', state:'Tx', 
@@ -375,7 +375,7 @@ export const items = [
 		type: 'infographics', 
 		name: 'Housing Market Characteristics', 
 		to: '/housingmarketcharacteristics',
-		desc: 'Review current real estate trends, value forcast, and inventory summaries for 2006' 
+		desc: 'Review current real estate trends, value forcast, and inventory summaries for 2006.' 
 	},
 	{ 
 		type: 'infographics1', 
