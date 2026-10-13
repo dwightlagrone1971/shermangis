@@ -50,7 +50,7 @@ Downtown Sherman has a combination of public and private parking lots. Look for 
         </div>
       </div>
     </div>
-    <div class="relative w-full overflow-hidden h-24 md:h-48">
+    <div class="relative w-full overflow-hidden h-16 md:h-36">
       <div class="h-full w-full">
         <img class="h-full w-full object-cover" src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/02e72b43fd964d76a38a59d15d7ad4b3/data" alt="city base map">
       </div>
