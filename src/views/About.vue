@@ -21,7 +21,7 @@
   </div>
   <div class="md:m-auto md:min-h-screen">
   <div class="pt-10 pb-2">
-    <h1 class="text-2xl md:text-3xl font-serif font-bold text-[#42a1a9]">What is the Global Positional System (GPS)?</h1>
+    <h1 class="text-[#42a1a9] font-serif text-2xl md:text-3xl 2xl:mt-4 font-bold italic">What is the Global Positional System (GPS)?</h1>
   </div>
   <div class="mt-12 m-auto md:-mt-2 md:grid md:grid-cols-5 md:w-8/12">
     <div class="pl-28 md:pl-12 md:pt-12">
