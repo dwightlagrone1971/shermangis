@@ -380,7 +380,7 @@ export const items = [
 		type: 'infographics1', 
 		name: 'Housing Market Summary', 
 		to: '/housingmarketsummary',
-		desc: 'Review current real estate trends, value forcast, and inventory summaries for 2006.' 
+		desc: 'Review current real estate trends, value forecast, and inventory summaries for 2006.' 
 	},
 	{ 
 		type: 'infographics', 
@@ -442,6 +442,12 @@ export const items = [
 		name: 'Ambulance Calls', 
 		url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/9a005e56e03e46aca282179adac59671', 
 		src: '/images/internal/Ambulance-Calls.png'  
+	},
+	{ 
+		type: 'internal', 
+		name: 'Facitilites Drive Matrix', 
+		url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/86c578283dcc4b2289e88c92f34dbb72#', 
+		src: '/images/internal/Drive-Matrix.png'  
 	},
 	{ 
 		type: 'internal', 
