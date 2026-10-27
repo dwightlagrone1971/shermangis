@@ -557,7 +557,7 @@ export const items = [
 	{ 
 		type: 'pdfMaps', 
 		name: 'Planned Developments', 
-		url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/cf38bef2ed614d07bd278e806b84ab39/data', 
+		url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/bcfc3ab7ebc84877bdc98b2d40556184/data', 
 		src: '/images/pdf/Planned-Developments.png'
 	},
 	{ 
