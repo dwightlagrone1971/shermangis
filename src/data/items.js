@@ -166,7 +166,7 @@ export const items = [
 	{ 
 		type: 'external', 
 		name: 'Development Projects', 
-		url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/5628948f1c1a464da61cc0bf966badf0',
+		url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/65fcbad2b4cb41cd94c5e33caca3232d#',
 		src: '/images/external/development-projects.png' 
 	},
 	{ 
