@@ -87,7 +87,7 @@ export const items = [
 	{ 
 		type: 'downloads', 
 		name: 'Development Projects', 
-		url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/bc6309414e124f2a87979db886ff78e4_0/explore?location=33.622729%2C-96.616768%2C12", 
+		url: "https://cityofsherman.maps.arcgis.com/apps/dashboards/65fcbad2b4cb41cd94c5e33caca3232d#", 
 		src: '/images/datasets/development.png' 
 	},
 	{ 
