@@ -35,7 +35,7 @@ export const items = [
 		city:'Sherman', state:'Tx', 
 		zip:'75090', phone:'(903) 892-7621', 
 		email:'mailto:jerryp@cityofsherman.com',
-		helpsWith: ['Control Monuments','Drainage', 'Sewer', 'Water']
+		helpsWith: ['Control Monuments','Drainage', 'Water', 'Sewer']
 	},
 	{ 
 		type: 'contacts', 
@@ -45,7 +45,7 @@ export const items = [
 		city:'Sherman', state:'Tx', zip:'75090', 
 		phone:'(903) 892-7195', 
 		email:'mailto:codyf@cityofsherman.com',
-		helpsWith: ['Streets', 'Mowing']
+		helpsWith: ['Mowing', 'Streets', 'Traffic']
 	},
 	/* Downloads */
 	{ 
